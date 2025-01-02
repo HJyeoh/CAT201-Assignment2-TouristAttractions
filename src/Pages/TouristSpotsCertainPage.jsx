@@ -21,11 +21,11 @@ const TouristSpotsCertainPage = () => {
         <img
           src={spot.img}
           alt={spot.name}
-          className="w-500 h-500 object-cover mb-6 md:mb-0 md:mr-6" 
+          className="w-300 h-200 object-cover mb-6 md:mb-0 md:mr-6" 
         />
         <div>
           <h1 className="text-4xl font-bold mb-10">{spot.name}</h1>
-          <p className="text-xl text-white">{spot.description}</p>
+          <p className="text-2xl text-white">{spot.description}</p>
         </div>
       </div>
 
