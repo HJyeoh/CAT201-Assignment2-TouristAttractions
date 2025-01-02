@@ -1,0 +1,30 @@
+/* Dark mode background and text */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Buttons */
+  button {
+    background-color: #333333; /* Dark button background */
+    color: #ffffff; /* White text */
+    border: 1px solid #555555; /* Light border */
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555555;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #1c1c1c; /* Dark card background */
+    color: #ffffff; /* White text */
+    border: 1px solid #333333;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
