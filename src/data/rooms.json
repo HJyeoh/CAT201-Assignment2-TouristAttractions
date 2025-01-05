@@ -1,0 +1,16 @@
+[
+  {
+    "hotelId": 1,
+    "rooms": [
+      { "type": "Deluxe Room", "price": 1200, "adults": 2, "children": 1 },
+      { "type": "Suite", "price": 2000, "adults": 3, "children": 2 }
+    ]
+  },
+  {
+    "hotelId": 2,
+    "rooms": [
+      { "type": "Superior Room", "price": 850, "adults": 2, "children": 0 },
+      { "type": "Executive Room", "price": 1500, "adults": 2, "children": 2 }
+    ]
+  }
+]
