@@ -2,8 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { MdOutlineStarPurple500 } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 const NewHotelCard = ({ hotel }) => {
+  const navigate = useNavigate();
+
   // Format rating to one decimal place
   const formattedRating = hotel.rating.toFixed(1);
 
@@ -17,8 +20,16 @@ const NewHotelCard = ({ hotel }) => {
     ratingDescription = "Good";
   }
 
+  // Handle card click
+  const handleCardClick = () => {
+    navigate(`/hotel/${hotel.id}`); // Redirect to a specific hotel page using the hotel ID
+  };
+
   return (
-    <div className="hotel-card flex flex-col items-left text-left bg-white shadow-md rounded-lg overflow-hidden">
+    <div
+      className="hotel-card flex flex-col items-left text-left bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform transform cursor-pointer"
+      onClick={handleCardClick} // Add onClick handler here
+    >
       <img
         src={hotel.image}
         alt={hotel.name}
@@ -30,7 +41,6 @@ const NewHotelCard = ({ hotel }) => {
         </h3>
 
         <div className="flex flex-row my-1 mb-2 items-center">
-          {/* Render the stars based on the hotel's star rating */}
           {[...Array(hotel.stars)].map((_, index) => (
             <MdOutlineStarPurple500 key={index} className="text-orange-500" />
           ))}
@@ -65,12 +75,13 @@ NewHotelCard.propTypes = {
   hotel: PropTypes.shape({
     image: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    price: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
     address: PropTypes.string.isRequired,
     city: PropTypes.string.isRequired,
     rating: PropTypes.number.isRequired,
     reviews: PropTypes.number.isRequired,
     stars: PropTypes.number.isRequired,
+    id: PropTypes.number.isRequired, // Ensure `id` is included
   }).isRequired,
 };
 

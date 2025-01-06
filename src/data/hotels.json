@@ -10,7 +10,37 @@
     "image": "https://via.placeholder.com/300x200",
     "address": "10 Lebuh Farquhar, George Town, 10200 George Town, Pulau Pinang",
     "city": "George Town",
-    "description": "Luxury heritage hotel by the sea."
+    "description": "Luxury heritage hotel by the sea.",
+    "images": [
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200"
+    ],
+    "amenities": ["wifi", "pool", "concierge"],
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "description": "Spacious and elegantly furnished room with sea view.",
+        "price": 1200,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": ["Free breakfast", "Sea view", "Complimentary Wi-Fi"],
+        "adults": 2,
+        "children": 1
+      },
+      {
+        "type": "Executive Suite",
+        "description": "Luxurious suite with separate living area.",
+        "price": 2000,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Access to executive lounge",
+          "Complimentary high tea",
+          "Priority check-in"
+        ],
+        "adults": 2,
+        "children": 0
+      }
+    ]
   },
   {
     "id": 2,
@@ -23,7 +53,39 @@
     "image": "https://via.placeholder.com/300x200",
     "address": "Jalan Magazine, 10300 George Town, Pulau Pinang",
     "city": "George Town",
-    "description": "Modern luxury with colonial charm."
+    "description": "Modern luxury with colonial charm.",
+    "images": [
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200"
+    ],
+    "amenities": ["wifi", "pool"],
+    "rooms": [
+      {
+        "type": "Standard Room",
+        "description": "Comfortable room with a modern design.",
+        "price": 850,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Daily housekeeping",
+          "Complimentary bottled water",
+          "Free high-speed Wi-Fi"
+        ]
+      },
+      {
+        "type": "Junior Suite",
+        "description": "A spacious suite with a king-sized bed.",
+        "price": 1500,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Free breakfast",
+          "Access to private lounge",
+          "Complimentary evening cocktails"
+        ],
+        "adults": 2,
+        "children": 1
+      }
+    ]
   },
   {
     "id": 3,
@@ -36,7 +98,41 @@
     "image": "https://via.placeholder.com/300x200",
     "address": "Shangri-La's Rasa Sayang Resort & Spa, Batu Ferringhi Beach, 11100 Penang",
     "city": "Batu Ferringhi",
-    "description": "Luxurious beachfront resort with spa and fine dining."
+    "description": "Luxurious beachfront resort with spa and fine dining.",
+    "images": [
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200"
+    ],
+    "amenities": ["wifi", "pool", "concierge"],
+    "rooms": [
+      {
+        "type": "Beachfront Suite",
+        "description": "A spacious suite with panoramic views of the beach.",
+        "price": 2500,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Complimentary spa access",
+          "Beachfront view",
+          "Free breakfast"
+        ],
+        "adults": 2,
+        "children": 1
+      },
+      {
+        "type": "Garden View Room",
+        "description": "Room with a beautiful view of the garden.",
+        "price": 1800,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Garden view balcony",
+          "Daily housekeeping",
+          "Free high-speed Wi-Fi"
+        ],
+        "adults": 2,
+        "children": 1
+      }
+    ]
   },
   {
     "id": 4,
@@ -49,7 +145,41 @@
     "image": "https://via.placeholder.com/300x200",
     "address": "Batu Ferringhi, 11100 Penang",
     "city": "Batu Ferringhi",
-    "description": "A tropical beachfront resort ideal for family getaways."
+    "description": "A tropical beachfront resort ideal for family getaways.",
+    "images": [
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200"
+    ],
+    "amenities": ["wifi", "pool"],
+    "rooms": [
+      {
+        "type": "Garden View Room",
+        "description": "Comfortable room with a garden view.",
+        "price": 1000,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Daily housekeeping",
+          "Complimentary Wi-Fi",
+          "Garden view balcony"
+        ],
+        "adults": 2,
+        "children": 1
+      },
+      {
+        "type": "Family Suite",
+        "description": "Spacious suite perfect for families.",
+        "price": 1800,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Large living area",
+          "Free breakfast",
+          "Access to kids' club"
+        ],
+        "adults": 2,
+        "children": 0
+      }
+    ]
   },
   {
     "id": 5,
@@ -62,71 +192,38 @@
     "image": "https://via.placeholder.com/300x200",
     "address": "Hard Rock Hotel Penang, Batu Ferringhi Beach, 11100 Penang",
     "city": "Batu Ferringhi",
-    "description": "Rock-and-roll themed beachfront resort with lively activities."
-  },
-  {
-    "id": 6,
-    "name": "JEN Penang Georgetown by Shangri-La",
-    "location": "George Town",
-    "rating": 8.4,
-    "stars": 4,
-    "reviews": 950,
-    "price": 1400,
-    "image": "https://via.placeholder.com/300x200",
-    "address": "Jalan Magazine, 10300 George Town, Pulau Pinang",
-    "city": "George Town",
-    "description": "Modern hotel offering exceptional services in the heart of George Town."
-  },
-  {
-    "id": 7,
-    "name": "The Northam All Suite Penang",
-    "location": "George Town",
-    "rating": 7.9,
-    "stars": 4,
-    "reviews": 600,
-    "price": 1000,
-    "image": "https://via.placeholder.com/300x200",
-    "address": "55, Jalan Sultan Ahmad Shah, 10050 George Town, Penang",
-    "city": "George Town",
-    "description": "All-suite hotel offering spacious rooms and city views."
-  },
-  {
-    "id": 8,
-    "name": "G Hotel Gurney",
-    "location": "Gurney Drive",
-    "rating": 8.5,
-    "stars": 5,
-    "reviews": 1150,
-    "price": 1700,
-    "image": "https://via.placeholder.com/300x200",
-    "address": "168A, Persiaran Gurney, 10250 George Town, Penang",
-    "city": "Gurney Drive",
-    "description": "Contemporary luxury hotel with sea views and fine dining."
-  },
-  {
-    "id": 9,
-    "name": "Vistana Penang Bukit Jambul",
-    "location": "Bukit Jambul",
-    "rating": 7.6,
-    "stars": 4,
-    "reviews": 780,
-    "price": 950,
-    "image": "https://via.placeholder.com/300x200",
-    "address": "Bukit Jambul, 11900 Penang",
-    "city": "Bukit Jambul",
-    "description": "A strategic location with easy access to the airport and Penang's attractions."
-  },
-  {
-    "id": 10,
-    "name": "The Blue Mansion",
-    "location": "George Town",
-    "rating": 9.1,
-    "stars": 5,
-    "reviews": 1340,
-    "price": 1600,
-    "image": "https://via.placeholder.com/300x200",
-    "address": "14, Lebuh Leith, 10200 George Town, Penang",
-    "city": "George Town",
-    "description": "Heritage hotel with a combination of modern and colonial style."
+    "description": "Rock-and-roll themed beachfront resort with lively activities.",
+    "images": [
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200"
+    ],
+    "amenities": ["wifi", "pool", "concierge"],
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "description": "Rock-inspired room with modern amenities.",
+        "price": 1800,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Free breakfast",
+          "Rock-themed decor",
+          "Complimentary Wi-Fi"
+        ],
+        "adults": 2,
+        "children": 1
+      },
+      {
+        "type": "Studio Suite",
+        "description": "Spacious suite with a king-sized bed and living area.",
+        "price": 2500,
+        "photo": "https://via.placeholder.com/300x200",
+        "benefits": [
+          "Exclusive access to Rock Royalty lounge",
+          "Panoramic ocean view",
+          "Free minibar"
+        ]
+      }
+    ]
   }
 ]
