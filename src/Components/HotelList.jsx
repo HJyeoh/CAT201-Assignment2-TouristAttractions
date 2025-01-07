@@ -29,7 +29,9 @@ const HotelList = ({ filters }) => {
             <NewHotelCard key={hotel.id} hotel={hotel} />
           ))
         ) : (
-          <p>No hotels found for the selected location.</p>
+          <div className="mb-16 text-center">
+            <p>No hotels found for the selected location.</p>
+          </div>
         )}
       </div>
     </div>
