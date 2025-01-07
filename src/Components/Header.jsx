@@ -72,7 +72,10 @@ function Header() {
           padding: "20px 0",
         }}
       >
-        {pageText}
+        {/* Centered Text */}
+        <div className="flex justify-center items-center text-center w-full">
+          {pageText}
+        </div>
 
         {currentPage === "home" && (
           <button
