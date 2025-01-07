@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 import TouristSpotsCertainPage from "./Pages/TouristSpotsCertainPage";
 import Navbar from "./Components/Navbar";
 import HotelCertainPage from "./Pages/HotelCertainPage";
+import EventDetailsPage from "./Pages/EventDetailsPage";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Route path="/hotel" element={<HotelPage />} />
         <Route path="/hotel/:id" element={<HotelCertainPage />} />
         <Route path="/events" element={<EventsPage />} />
-
+        <Route path="/events/:id" element={<EventDetailsPage />} />
         <Route path="/:spotId" element={<TouristSpotsCertainPage />} />
       </Routes>
 

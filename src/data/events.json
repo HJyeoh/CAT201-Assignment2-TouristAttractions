@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1,
+    "title": "The Return of Raja Durian",
+    "startDate": "2024-11-16",
+    "endDate": "2025-02-09",
+    "details": "Address: Blank Canvas 2, Argus Lane, 10200 George Town, Penang, Malaysia.",
+    "poster": "/poster/event1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "TLM Baby Expo",
+    "startDate": "2025-01-10",
+    "endDate": "2025-01-12",
+    "details": "Address: SPICE Arena, Penang",
+    "poster": "/poster/event2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "OBS Chinese New Year Run 2025",
+    "startDate": "2025-01-12",
+    "details": "Address: Beach Street",
+    "poster": "/poster/event3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Nibong Tebal Ulalar Chinese New Year Run 2025",
+    "startDate": "2025-01-19",
+    "details": "Address: Firefly Sanctuary, Nibong Tebal",
+    "poster": "/poster/event4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Chinese New Year",
+    "startDate": "2025-01-29",
+    "endDate": "2025-01-30",
+    "details": "Chinese New Year is a traditional festival that celebrates the beginning of the lunar new year, marked by family reunions, feasts, the giving of red envelopes, and vibrant cultural performances such as dragon dances and fireworks.",
+    "poster": "/poster/event5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Pai Thee Kong (槟城拜天公)",
+    "startDate": "2025-02-05",
+    "details": "Address: Weld Quay",
+    "poster": "/poster/event6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Butterworth Miao Hui 2025 (乙巳年北海新春廟會)",
+    "startDate": "2025-02-08",
+    "endDate": "2025-02-09",
+    "details": "Address: Rumah Berhala Guan Yin Ting Dou Mu Gong 北海新芭觀音亭斗母宮",
+    "poster": "/poster/event7.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Thaipusam",
+    "startDate": "2025-02-11",
+    "details": "Thaipusam is a Hindu festival celebrated by the Tamil community, dedicated to Lord Murugan, where devotees engage in acts of devotion, including carrying kavadi (a ceremonial burden) and performing rituals of penance and thanksgiving.",
+    "poster": "/poster/event8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "KBJ Bazaar Ramadan",
+    "startDate": "2025-03-02",
+    "endDate": "2025-03-30",
+    "details": "Address: Market Place, Kompleks Bukit Jambul",
+    "poster": "/poster/event9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Hari Raya Aidilfitri",
+    "startDate": "2025-03-31",
+    "endDate": "2025-04-01",
+    "details": "Hari Raya Aidilfitri is a significant Muslim festival that marks the end of Ramadan, celebrated with prayers, feasts, family gatherings, and the giving of zakat (charity) to those in need.",
+    "poster": "/poster/event10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Penang International Banknote & Stamp Fair",
+    "startDate": "2025-04-25",
+    "endDate": "2025-04-27",
+    "details": "Address: 1st Avenue Mall Penang",
+    "poster": "/poster/event11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Wesak Day",
+    "startDate": "2025-05-12",
+    "details": "Wesak Day, also known as Vesak, is a significant Buddhist holiday that commemorates the birth, enlightenment, and death of Gautama Buddha, observed with prayers, meditation, and offerings at temples.",
+    "poster": "/poster/event12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Malaysia International Miniature Hobby Show & MALCOM 2025 马来西亚国际微缩模型展及竞赛",
+    "startDate": "2025-06-14",
+    "endDate": "2025-06-15",
+    "details": "Address: St.Giles Wembley Penang",
+    "poster": "/poster/event13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Trash Free Hill 2025 (2025年升旗山零垃圾活动)",
+    "startDate": "2025-06-15",
+    "details": "Address: Penang Hill",
+    "poster": "/poster/event14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Penang Hill Heritage Forest Challenge 2025 (2025年升旗山古迹森林竞跑)",
+    "startDate": "2025-07-13",
+    "details": "Address: Padang Serbaguna, Taman Bandaraya (Youth Park)",
+    "poster": "/poster/event15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "40th Penang Bridge Anniversary Exhibition",
+    "startDate": "2025-08-01",
+    "endDate": "2025-08-03",
+    "details": "Address: 1st Avenue Mall Penang",
+    "poster": "/poster/event16.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Penang Hill Festival 2025 (2025年升旗山嘉年华)",
+    "startDate": "2025-08-08",
+    "endDate": "2025-08-10",
+    "details": "Address: Penang Hill",
+    "poster": "/poster/event17.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Music on the Hill - East meets West 2025 (2025年中西交汇的升旗山音乐飨宴)",
+    "startDate": "2025-08-10",
+    "details": "Address: Penang Hill",
+    "poster": "/poster/event18.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Merdeka Day",
+    "startDate": "2025-08-31",
+    "details": "Merdeka Day, celebrated on August 31st, marks Malaysia's independence from British colonial rule in 1957, commemorating the nation's freedom and unity with various events and festivities.",
+    "poster": "/poster/event19.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Malaysia Day celebration - Kids Costume Contest",
+    "startDate": "2025-09-06",
+    "details": "Address: 5th Floor, Kompleks Bukit Jambul",
+    "poster": "/poster/event20.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Malaysia Day",
+    "startDate": "2025-09-16",
+    "details": "Malaysia Day, celebrated on September 16th each year, commemorates the formation of Malaysia in 1963, when the Federation of Malaya, North Borneo, Sarawak, and Singapore united to form the country, marking a significant moment in the nation's history.",
+    "poster": "/poster/event21.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Deepavali",
+    "startDate": "2025-10-20",
+    "details": "Deepavali, also known as Diwali, is a Hindu festival of lights celebrated to signify the triumph of light over darkness and good over evil, marked by lighting oil lamps, bursting fireworks, and exchanging sweets and gifts with family and friends.",
+    "poster": "/poster/event22.jpg"
+  },
+  {
+    "id": 23,
+    "title": "George Town Literary Festival 2025",
+    "startDate": "2025-11-28",
+    "endDate": "2025-11-30",
+    "details": "Address: George Town, Penang",
+    "poster": "/poster/event17.jpg"
+  }
+]
