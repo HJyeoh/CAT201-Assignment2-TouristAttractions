@@ -7,41 +7,44 @@
     "stars": 5,
     "reviews": 980,
     "price": 1200,
-    "image": "https://via.placeholder.com/300x200",
+    "image": "/src/Asset/hotel/hotel-1a.webp",
     "address": "10 Lebuh Farquhar, George Town, 10200 George Town, Pulau Pinang",
-    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9434520031555!2d100.26586257474408!3d5.42556249455374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac27b82385471%3A0x2974f8d6b01c821b!2sThe%20Habitat%20Penang%20Hill!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9434520031555!2d100.3320274!3d5.4236595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac39b073008ab%3A0xf3b83438062f2fb!2sEastern%20%26%20Oriental%20Hotel%2C%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "George Town",
-    "description": "Luxury heritage hotel by the sea.",
+    "description": "Experience luxury seafront views at Eastern And Oriental Hotel. This all-suite hotel in George Town offers 3 restaurants, a 24-hour fitness center, an infinity pool, and 6 dining options. The 232 suites blend modern and antique furnishings with wood floors and marble bathrooms. Explore nearby attractions and indulge in culinary delights at the beloved E&O, cherished for over a century. Discover Georgetown's rich heritage with charming colonial buildings and vibrant street art. Enjoy a breakfast served to your room, unwind by the indoor pool, and indulge in drinks at the exclusive bar. With convenient access to Prangin Mall, Chew's Jetty, and Street Art in George Town, Eastern And Oriental Hotel offers comfort, luxury, and a taste of local charm for solo travelers. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200"
+      "/src/Asset/hotel/hotel-1a.webp",
+      "/src/Asset/hotel/hotel-1b.webp",
+      "/src/Asset/hotel/hotel-1c.webp",
+      "/src/Asset/hotel/hotel-1d.webp",
+      "/src/Asset/hotel/hotel-1e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
       {
-        "type": "Deluxe Room",
+        "type": "Writers Suite",
         "description": "Spacious and elegantly furnished room with sea view.",
         "price": 1200,
-        "photo": "https://via.placeholder.com/300x200",
+        "photo": "/src/Asset/room/room-1b.webp",
         "benefits": ["Free breakfast", "Sea view", "Complimentary Wi-Fi"],
         "adults": 2,
-        "children": 1
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=ECGMqql%252BZIzA8Z7SzKw8VxE56afqXkpi3wlSzXxlphVDXQOOrCKreta%252FI3IgFpfaf1vJfLPj0d7oJOiO7OJHdG3wLx3SIGCXi48vUIKkQO6Nvr4tKw4jdwDoLP5PaWT0BqOs1mAQSIsrCm5a37Ro2GxL0U8KCj2aaKIKpsCa3GTnm98s2TO%252BDP8l8uoEgeZEp9b0tGSMNPJqGyHkabZ0sUmnC%252B4%252FmU8Uih1zkvHs7MIF%252BfGnaWXhOVh57aCYoEYxzdVMvi0Wlmi5gFQtLOwsFV%252FYnPn1i64HusGlkYNUjA%252BBxkqtqb75SOM7DVhkDVGnR1nQZvMawoze2V7OsZRA%252Fw%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=ntX56bIRzM05tpZ6I6cL1pf9saHh3%252FikEIIPn8aW0ceuKHj1UjSzgaLDgL6yMmxYpzdwjWFextjO7bM%252F7WwkIyQrugRDmrU2YRVeV8dw%252Fst8lhBmCFwkBoyn3SGBBGVFyqGVPcPrcYAMsshYnCA7CGCK3QjoijCyHot48qwJce31EIyGFgka6hIeVO%252BcwLHDU60vTlwGpYxKn00plelCwGoHblnRYdJRNs8ZN52a1yafromrmu9nGBkX1jnUtvpQmHRXpk83U4XZ%252BXFEgz5i1Q%253D%253D&nr0=1&xbr0=&sarg=pvo6f%252FM2mEKzDcHqBRrExqbPv8M4EB5Jri5PhSoSp51bhjjg58PRAiKX3qxIDOpYQQb%252Br1NE7hyh8DOvwRfVFjKTwC%252B69CzSDiEm%252Bjy5ZAOsNzbVsOX2VsbVgbXOV%252FFB3Y8rlqymlejehdsdQYTiX7%252BDSA6LVomVouxolEWpyJgaebTStMW7hlRfFJIP5ot7rPQiEC4WmLHfrTlzEE5xvjIfJ9cBl8ol8hRQXg3qTcj99iQeNMHqQ8Sk%252FUkYdT%252FIZAe1w0gBcSjQO5BX5m%252FLtg%253D%253D&sreq=-1&finc=false&nco=0&pco=1"
       },
       {
-        "type": "Executive Suite",
+        "type": "Heritage Wing Superior Suite with 2 Single Beds",
         "description": "Luxurious suite with separate living area.",
-        "price": 2000,
-        "photo": "https://via.placeholder.com/300x200",
+        "price": 1418,
+        "photo": "/src/Asset/room/room-1a.webp",
         "benefits": [
           "Access to executive lounge",
           "Complimentary high tea",
-          "Priority check-in"
+          "Free Premium Wifi",
+          "Free fitness center access"
         ],
         "adults": 2,
-        "children": 0
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=PuNjRYk%252FWPa2XnKvGN%252BUqnlp0j0tiJbCghEoAqHeCEqcl71Llbu65qKU7pG3FJo6r32B9561FIBZlPyub8LUFdOy%252FpZ5hO53VBE3IEcT41%252FN9QyHAhGqP3Vov9a5reHMfV5vh3w6Vv1dBxoFEm5jWZ8vTvWINIw%252BpRT%252FEF0szHGnAZnMyqm1%252BNR4sGN6HIadKN671jAXXq2TbwILYqQC1v8Y%252Fe3HGLjs1Xv5%252BeNjDjGj%252FbBqvc2v%252FkQV4M%252BYrT5NQ1rzM%252BZy6xHEUvxmUiRTv2gaZtbVareQjg88sSaNPb39LwYaAUSjdrdJdUQ7nPNSfl57UmEZfiJxJCQiSUu32g%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=NLAHp4W1uHzFoh9D3IJzFR8ic8ygpNg8YdN6gaL7ylSa6KhvEqKHw9pRk2non%252FU5O6kaujmZq0aCaRsDbd03HAz3LIaq8zM9k3%252BC%252BJ0nn5srjcdK8AuOOa7T4pJLzz%252BMsLuKIjaDM29kCmrRohA8LT0hw1kh6PsOMy4GnZ0JXXOjsNXs8W4pOoGHc8Vp0PwPb1tcw%252FWJnaIdoejUHPOUdsrJV0hJK3ytdNCRe7FIS3x97gFLovJC45mHPAe5XnM2MiuNCTPBNTjUbHfIRnWOz8cLxisVcuKS4LOuPd60LTc%253D&nr0=1&xbr0=&sarg=ayepJpPJhH49mXYg2lTq1rByrWDpoaTzhiU5oCuCYZYX11HbrHCvXMPJ%252FuCT6UlZDByFfJPytz%252BtfnIhOSgcncYEtSHndvf90N9Aeg5khXk%252BpnIH5y%252Fgm8EGC8FuXjDVMaaW71E5MXNp7xqXPZMUaadSSF%252FMX08hr4ujsFMCmhoYKRHVcX6xOuK8Dy%252BfjaVqz%252FhP2S5o0%252B%252FYx0LfjXidfGKnm8%252Fv8OBJAOIUEyyoUjxhvTzYCJ7tD%252FCoO8fIumphT92kjVHFcKltPOdfC1kW8XJdS8XKrnP%252BIEHT5sRUGgY%253D&sreq=-1&finc=false&nco=0&pco=1"
       }
     ]
   },
@@ -52,88 +55,88 @@
     "rating": 6.7,
     "stars": 4,
     "reviews": 720,
-    "price": 850,
-    "image": "https://via.placeholder.com/300x200",
-    "address": "Jalan Magazine, 10300 George Town, Pulau Pinang",
+    "price": 280,
+    "image": "/src/Asset/hotel/hotel-2a.webp",
+    "address": "8 Gat Lebuh Gereja, Georgetown, Penang, Malaysia, 10200",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.7948667900736!2d100.340188!3d5.4165129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3e9c9271fa5%3A0x80ebadc7fa6fdb28!2sThe%20Prestige%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "George Town",
-    "description": "Modern luxury with colonial charm.",
+    "description": "Experience modern luxury at The Prestige Hotel Penang. Rooftop infinity pool with stunning view. Victorian arcade with curated retail and dining options. Ideal for solo travelers seeking nearby attractions. Explore Georgetown's rich cultural heritage, admire colonial buildings, and immerse yourself in the vibrant street art scene. Enjoy a mouthwatering breakfast and delicious meals at the on-site restaurant. Stay in air-conditioned rooms with complimentary Wi-Fi, with some offering city or outdoor views. Conveniently located near Prangin Mall, Chew's Jetty, and Street Art in George Town, The Prestige Hotel Penang is the ideal choice for solo travelers seeking to discover the city and make unforgettable memories. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200"
+      "/src/Asset/hotel/hotel-2a.webp",
+      "/src/Asset/hotel/hotel-2b.webp",
+      "/src/Asset/hotel/hotel-2c.webp",
+      "/src/Asset/hotel/hotel-2d.webp",
+      "/src/Asset/hotel/hotel-2e.webp"
     ],
-    "amenities": ["wifi", "pool"],
+    "amenities": ["wifi", "pool", "breakfast"],
     "rooms": [
       {
-        "type": "Standard Room",
+        "type": "Premier Deluxe King",
         "description": "Comfortable room with a modern design.",
-        "price": 850,
-        "photo": "https://via.placeholder.com/300x200",
+        "price": 280,
+        "photo": "/src/Asset/room/room-2a.webp",
         "benefits": [
           "Daily housekeeping",
-          "Complimentary bottled water",
+          "Free pool access",
+          "Free fitness center access",
           "Free high-speed Wi-Fi"
-        ]
+        ],
+        "adults": 2,
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=PuNjRYk%252FWPa2XnKvGN%252BUqsmgUjZt9aeuzyVR3Gw78tIDpw%252BiMP%252FCcNLriXPNw1pjfB5vTT2E54Qt6o8mAgDZX2IHT90VIhuJ8WG5nw1fjJSpPpBxzsTjW4wJDniLsYtGrUFDegOgsDUOQ6YPE7POqvBEznVxqAMRgoglTZGeY8OPxatJBVC5MTrkzJQR59wOAeBtwBtUr7CMbf8TglDyRNCaDoa38zCg8hxvk6D1WOrfaeTfRBKUR8mGwUWdzPwkTb0NgsZl7%252FmhQ%252BiX3%252B0QVDwSPj9Wo8h%252ByWgR%252B8N7b%252F%252FK2W45BB5qo80IpDJW%252FGHa02Y2ckE2dX1R8LREvwoGbQ%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=q5t0piU1Ff9n26jei42fNW8jQil6L2%252BsaXQnEmbn%252FFYhwQkvu4nstEVO8W11arRcjoBcrx6hgeJGjPQkwX7tFRQeB4C5aKY2r9Zma4juphEBRpPECB9aqp6V0VGfng5%252BZGPi2Z1517J7w6dtI%252F%252Fu%252F%252BurJrysayxAbdVaaUHnndt38A1T75EfpUG1dm8SdM%252BzjaOYa%252FWt5628Wp7banKNfHdowyXho1zqcvTQLMvsxhZsCiZR4BMbcbhO5fP22u8C%252BEtV%252F0TnPaOXIAETCt9zgYr7kxuNwr1n68W4%252BPmpZ3Y%253D&nr0=1&xbr0=&sarg=NUR6QDjPGIpQSXM0QSE%252FKCD5wc7OJYQXyqFc7%252BDUfBlBKyGeWhLNyOM5iDNMQmJKZk87Fgn4odjWqc%252BJlusSpCu6nHcx0CdP0IlANfdhgebE4w53Lbkt7XAvAFkaxo80Bcy4vfd1CwSEgb1smeRnT9jG0xiYsMkU%252B4SfI7eUGMY4jyv%252Fo2QEvakmf8%252FPMLlDsoVF55Ks1Wvl20wN97%252BvtxVQa1bY4jmSe4PqfpXnbKy6dJsmW7uvdBscpLCaI6W%252FStnaWUGbxzEZDHNmq9FeRIr7kxuNwr1n68W4%252BPmpZ3Y%253D&sreq=-1&finc=false&nco=0&pco=1"
       },
       {
-        "type": "Junior Suite",
+        "type": "Hollywood Twin Room",
         "description": "A spacious suite with a king-sized bed.",
-        "price": 1500,
-        "photo": "https://via.placeholder.com/300x200",
+        "price": 273,
+        "photo": "/src/Asset/room/room-2b.webp",
         "benefits": [
           "Free breakfast",
-          "Access to private lounge",
+          "Free pool access",
+          "Free fitness center access",
           "Complimentary evening cocktails"
         ],
         "adults": 2,
-        "children": 1
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=2NOL%252FjEc8zxRWpZQfD%252FESDNF2oan7xZC9yiQm2dPxgRzDdi6O2Fkwg3pFVyN0TKLPHU8b2SYtagKAvjVY20pzija87w9xdgLn9lo1OXjyAvHqtRW42Xa%252FNj%252FhAdImNhnwaSmyvr%252Fio%252FVXD1rO3ow2CuJYsdjdCAOFIZxsakkg5QZgFIIng6nDfiw2YcpxFp6CUvz%252Fm3mLsEuH2hNdEPK7VSyBDU6kt3yXOZ6KqwlVNTrhrrigCKsl3fg5HrwHj%252Fro2l0BrwhiytYSkrZNhIZwXCW1yDGwY5HnVRlma2p8xs5RD91d5G%252BbK387Qk%252FbPCKNWTj%252BbU6VWprHzZKn6gRFw%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=ntX56bIRzM05tpZ6I6cL1vkxQsVoh8mPOhQJd39jpX3jBGp101ZZxYxAXdVsWcXGMQKMTFBaGuiOqWsNP06j6Affn2tk0wd2Gmr6euBegdegalIribI41v%252BUJ%252Fvfb6RbY3iheLMm66F5rGfT7iVk7QzQ1tXwcGJoR41czN%252F42WQQmhX8jnRwQrduJUR%252FePstnU%252FWtP3LBdaxjyxzuRBt%252BhI7BGY%252Be29TAux8DdukfRWWd0k%252ByipRqafyLJYRULRW86m%252FlTJN%252FcX1SL5Bem5hfA%253D%253D&nr0=1&xbr0=&sarg=UhQbM9i9eElYtJJsi121gYc62voOTTsFeGPrASizITo8YLAh7WjILPRFjlQI%252BctwJy8yfHAzDHyQmVQuAAxVdyEZJ9euiLu2EpifzIQBRkoLGrum9z3Sc4HWb9%252B%252BdifeeXxkMT7KEzue4RG600b4ZLqTZbfaZsEX0WdyAPfg4pFeG5QgwibpPXF4%252BdoBWLX8crEnWEvFV8ye6kqyU5uKqUDXOHRZM7%252BhmoP9%252F6xmawRFrehcQSLXics6yVdL%252BVrwQkK8JRGHMOaVudxBtklO9Ir7kxuNwr1n68W4%252BPmpZ3Y%253D&sreq=-1&finc=false&nco=0&pco=1"
       }
     ]
   },
   {
     "id": 3,
-    "name": "Shangri-La's Rasa Sayang Resort & Spa",
-    "location": "Batu Ferringhi",
-    "rating": 9.2,
-    "stars": 5,
+    "name": "Eastin Hotel Penang",
+    "location": "Bayan Lepas",
+    "rating": 8.3,
+    "stars": 4,
     "reviews": 1200,
-    "price": 2200,
-    "image": "https://via.placeholder.com/300x200",
-    "address": "Shangri-La's Rasa Sayang Resort & Spa, Batu Ferringhi Beach, 11100 Penang",
-    "city": "Batu Ferringhi",
-    "description": "Luxurious beachfront resort with spa and fine dining.",
+    "price": 400,
+    "image": "/src/Asset/hotel/hotel-3a.webp",
+    "address": "1 Solok Bayan Indah, Bayan Lepas, Penang, Malaysia, 11900",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.398915907538!2d100.3040271!3d5.3365953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac0f7bd0db689%3A0x66643f2ddd9cec2b!2sEastin%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
+    "city": "Bayan Lepas",
+    "description": "Enjoy the charm of Eastin Hotel Penang as a solo traveler. Relax in the lobby lounge or rooftop pool, pamper yourself at Danai Spa. Conveniently near Queensbay Mall for shopping lovers. Book a solo stay at Eastin Hotel Penang for an enriching journey. Discover the vibrant atmosphere of Bayan Lepas, Penang as a solo traveler. Enjoy the convenience of a luxurious stay with a refreshing swimming pool, stylish bar, and convenient shuttle service. Explore pristine beaches and iconic attractions like Penang Hill and Snake Temple. Immerse yourself in the charm of Eastin Hotel Penang, conveniently located near Queensbay Mall, offering a variety of shopping and dining options. Experience a memorable stay with air conditioning, complimentary internet access, and plush towels. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200"
+      "/src/Asset/hotel/hotel-3a.webp",
+      "/src/Asset/hotel/hotel-3b.webp",
+      "/src/Asset/hotel/hotel-3c.webp",
+      "/src/Asset/hotel/hotel-3d.webp",
+      "/src/Asset/hotel/hotel-3e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
       {
-        "type": "Beachfront Suite",
+        "type": "Deluxe Suite",
         "description": "A spacious suite with panoramic views of the beach.",
-        "price": 2500,
-        "photo": "https://via.placeholder.com/300x200",
+        "price": 315,
+        "photo": "/src/Asset/room/room-3a.webp",
         "benefits": [
           "Complimentary spa access",
           "Beachfront view",
           "Free breakfast"
         ],
         "adults": 2,
-        "children": 1
-      },
-      {
-        "type": "Garden View Room",
-        "description": "Room with a beautiful view of the garden.",
-        "price": 1800,
-        "photo": "https://via.placeholder.com/300x200",
-        "benefits": [
-          "Garden view balcony",
-          "Daily housekeeping",
-          "Free high-speed Wi-Fi"
-        ],
-        "adults": 2,
-        "children": 1
+        "children": 0,
+        "link": ""
       }
     ]
   },
@@ -141,46 +144,51 @@
     "id": 4,
     "name": "Bayview Beach Resort Penang",
     "location": "Batu Ferringhi",
-    "rating": 7.8,
+    "rating": 8.4,
     "stars": 4,
     "reviews": 850,
-    "price": 1100,
-    "image": "https://via.placeholder.com/300x200",
+    "price": 457,
+    "image": "/src/Asset/hotel/hotel-4a.webp",
     "address": "Batu Ferringhi, 11100 Penang",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.278708093791!2d100.2385663!3d5.466117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3daacdcdd97%3A0x4f19c40f0f81e52e!2sBayview%20Beach%20Resort!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Batu Ferringhi",
-    "description": "A tropical beachfront resort ideal for family getaways.",
+    "description": "Ideal beachfront getaway for solo travelers at Bayview Beach Resort. Well-appointed rooms with private balconies offering stunning views. Explore lively Batu Ferringhi Night Market for street food and local crafts. Relaxation and adventure await solo travelers. This exclusive resort in Batu Ferringhi, Penang is perfect for solo travelers seeking a vibrant beach escape. Enjoy the swimming pool and trendy bar. The well-equipped rooms offer air conditioning, showers, toiletries, and plush towels. Wake up to breathtaking mountain or sea views. Explore attractions like Batu Ferringhi Beach, Night Market, and Penang Tropical Spice Garden. Convenient airport transfer provided. Ideal for an unforgettable solo adventure. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200"
+      "/src/Asset/hotel/hotel-4a.webp",
+      "/src/Asset/hotel/hotel-4b.webp",
+      "/src/Asset/hotel/hotel-4c.webp",
+      "/src/Asset/hotel/hotel-4d.webp",
+      "/src/Asset/hotel/hotel-4e.webp"
     ],
-    "amenities": ["wifi", "pool"],
+    "amenities": ["breakfast", "wifi", "pool"],
     "rooms": [
       {
-        "type": "Garden View Room",
+        "type": "Grand Deluxe Double",
         "description": "Comfortable room with a garden view.",
-        "price": 1000,
-        "photo": "https://via.placeholder.com/300x200",
+        "price": 457,
+        "photo": "/src/Asset/room/room-4b.webp",
         "benefits": [
           "Daily housekeeping",
           "Complimentary Wi-Fi",
           "Garden view balcony"
         ],
-        "adults": 2,
-        "children": 1
+        "adults": 1,
+        "children": 0,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=2NOL%252FjEc8zxRWpZQfD%252FESDq9oc54zNBxMZ%252BhLoauhbTWBvHP5UZze9ZcsUcAKWKJBQlQ1SXwv00oEUhHzfoossJHEvgwoRTs%252BJaWSNPD7YXW8TlO8tFqjuoPo81H5kVlPO2tjHFszU1hyrcA9ow1WyDyaIcC9eFVBFf2J%252BDosqVpPuET5LOtwUhiAo8T8kNWrkHK8tQHKMKQfnwHp0g2oFoVkJZ6Jbvc5oGxXVngCoM8pAoRbRwrVwjziMw36%252F5890GZlSHyT1niT1jp4DzjkZiPdIGR2ffosrjCG8IZMrQ7r%252Be0stO2%252F%252BTLM92FgBXgqFTmUihbSoIEogzQC000OA%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=CME8aOP3sLC4AMld68GpRiI6pNNrHdCdrP242akjGllq8KSG%252BO%252BVtZINqMdfSuxrCE%252FYwwBKCEcGCyJlQBA%252BR6wRJdpJ1Ld95Wb%252Ff3tWzs41IcvZa%252BBt0rGDzJ5m6HVt4%252B4nRUmPalnEUcWO2z2vKHaAi0HeHZOsWnhTn%252F%252F5E7kp65Tdb2Tlwgr5T9a%252BtmGY%252ByxTQm50E2Q3%252FYzIrhNZX%252BgddVRxmNlffMuq6yCP%252Fv6iujOkflPNzUyQB%252FRhn24MUoPEok47rOFxC38U5TL5jfU7G6xnEOPh8tb1xFJBAQSE1uVvhPUZvqIBWGY2okMw9sfc%252Ffk66cQ60zIKvm%252BkMqAfhZVPokCw%252BVZWhS9H%252BBxEtBlx1HZfkW%252BNNlwibQZv9GUv8Lw%252BPwssM0FCbKK1wsbZOxXfKkLNQ4jLpAxhoCgEoGjBYJrmWJ4YvYyjLgAkN8nYAwcs8asdBAWFsg7mPpnjzopIfEhPAxwPaZAyv%252FNbbmxJs%252BYSRuLx8LZw9VgP&nr0=1&xbr0=&sarg=7dxn%252BSWu0mu87O%252BhxtD4i6RHqx0MqyXMWj9f5I4CG4qxYhQRdntIu%252BVPzQB5B9UDF8Z3OlbQxPpb3DpabPQLb6Z0LU7bpG4KjUclpMhBgK9kZPeFOk1S6F2y6j6S6hIIjMrHgKjIZ6FB4p0Ztchrdy5KgwMqgKarIxW2TbjtPI%252Fu%252B5%252BQgSbNGNGSQ2aIB6ZluxGQUWvoxWZ2siivSbZQq5G6ISNyc9RuQYjAh3J85IApUdF6QoUi1SJR%252BeGlu%252FeySfR7pG%252FTQDUcOYPt0XvN9W5Pj5hX0MKE1lfS88tSdik%253D&sreq=-1&finc=false&nco=0"
       },
       {
-        "type": "Family Suite",
-        "description": "Spacious suite perfect for families.",
-        "price": 1800,
-        "photo": "https://via.placeholder.com/300x200",
+        "type": "Superior Hill View Room with Double Bed",
+        "description": "Spacious suite.",
+        "price": 260,
+        "photo": "/src/Asset/room/room-4a.webp",
         "benefits": [
           "Large living area",
           "Free breakfast",
-          "Access to kids' club"
+          "Free Premium Wifi"
         ],
         "adults": 2,
-        "children": 0
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=2NOL%252FjEc8zxRWpZQfD%252FESMG2fl1GkMiaIwgh6hPoQKmGvnepHtLmSPbiV9YtjW%252Fp4GNX%252BjbP1DubtJrAYxK%252BLGYsPLaj75sywSdsNLJd%252BZtVcKnmZdKBQp3qsNWw6PMW2Fu6XLae72HaT88HpLVFwDx%252BG7sAF78yjegK7JNE2MWby5wikpsNPty9a1DXJpSvcC%252FexZcR7IrV5fjXr3isOP8xtCNdc6QKPSpOPRpd%252F1lwmSf96oSjYOr7gXmpcTPlp8AIR%252B3JzT023HW%252FWbVjRFkYma%252B4Cy3XNciFX327nVrg%252BCyWvgd7sU7sBmz8aCGlSdukbUiahqC%252Fd7dIrVpJ3Q%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=K%252FbTRPUgpoy%252FBU%252Bq%252BFZJFhjBPXjvq%252B4XFj95XMkKLC9tgjBHlRC6AU2pGzWqWZWzfjuUCgDOdmyoPSbxmPayf7bgaCF3IV3Skd9PLs93mLV8tDMdmEN8dV5ffjwp91uyN1gdunXg5nHc%252F2%252FgQlkollz0UmOA7iPC%252BXyABL2ZQim%252B3Quwm9FQa3LDQfrCGOdYIqlQqeGnQy%252FrNPpKzAm%252FdnwGVXECFDGOBv07mhNmK0BS6JQXhJHR1ZbwUzgSEke8&nr0=1&xbr0=&sarg=rXcvCTr92KS0s988ub%252FOUaQR4tMkTeTzOLRY0LSwBELZ58stcx0Ap8UhIyMXgT46dp0%252FjvoeJrsTtcQuZMablNMF5uvbtjFc2Jd9evfsw9ylKFB39NsO%252F0iptvpJr9bkx3nPZSfEmMucALthu5J7Npk7trEFmrB54sWVD0K9%252F6yrDjUwZA05kKkrSbqyqF%252Fyg3lTy%252FJ%252B4sREar3l6lhdyRNtIbc7Njv8ywskuoCjLcHRjMJDZYhYRVwvsHKxGQih66p9sEU7y3fKA0gD30y7wm5Pj5hX0MKE1lfS88tSdik%253D&sreq=-1&finc=false&nco=0&pco=1"
       }
     ]
   },
@@ -191,41 +199,252 @@
     "rating": 8.6,
     "stars": 5,
     "reviews": 1250,
-    "price": 1800,
-    "image": "https://via.placeholder.com/300x200",
+    "price": 740,
+    "image": "/src/Asset/hotel/hotel-5a.webp",
     "address": "Hard Rock Hotel Penang, Batu Ferringhi Beach, 11100 Penang",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.271093645592!2d100.2389808!3d5.4676995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ae7fdb471d61d%3A0xed51474b3f6eda01!2sHard%20Rock%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Batu Ferringhi",
-    "description": "Rock-and-roll themed beachfront resort with lively activities.",
+    "description": "Experience the dynamic solo travel at Hard Rock Hotel Penang. Enjoy Rock Spa, dining options, live music, and Roxtie Kids Club. Located in Batu Ferringhi, with easy access to stunning beaches, night markets, and water sports. Book now and rock on! Indulge in luxury at this exclusive property with a refreshing swimming pool and convenient shuttle service. Enjoy your air-conditioned room with free Wi-Fi and premium toiletries. Wake up to breathtaking views of the ocean, pool, or sea. Explore popular landmarks nearby including Batu Ferringhi Beach and Night Market. Perfect choice for solo travelers seeking relaxation or adventure. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200",
-      "https://via.placeholder.com/300x200"
+      "/src/Asset/hotel/hotel-5a.webp",
+      "/src/Asset/hotel/hotel-5b.webp",
+      "/src/Asset/hotel/hotel-5c.webp",
+      "/src/Asset/hotel/hotel-5d.webp",
+      "/src/Asset/hotel/hotel-5e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
       {
-        "type": "Deluxe Room",
+        "type": "Deluxe Hill View",
         "description": "Rock-inspired room with modern amenities.",
-        "price": 1800,
-        "photo": "https://via.placeholder.com/300x200",
+        "price": 740,
+        "photo": "/src/Asset/room/room-5a.webp",
         "benefits": [
           "Free breakfast",
           "Rock-themed decor",
           "Complimentary Wi-Fi"
         ],
         "adults": 2,
-        "children": 1
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=Zn26TFijtB1PdSULgzu0%252B4%252BmHW%252Fee81ecw9KA3nuuLgS%252Bq5VlHzuYgEqUNiVugxN%252F7BHhRwyY%252BhbczYmOy5sbwf8yIt%252BmR%252FhATq0gngy5sYLdEyqL%252FXQ1hCc6h5NNQ%252Bho9f%252F%252B78xPlCx7hhxF19%252BodOO4ETWX2diAuXbTmY%252BWzKMqNvQu%252Bo1eVWCw9Qobh4DkOo2rQlHJhBxkGRcMINCH9xbC5nlF8eNN0FU4Tha3W7OgUx8uTXbLJNx%252FIS5wyHUHSee1%252BfZOIJI%252BW4UxrDnOd4xnqMEs9FmPwT8iTCIP4aOExAUWIilY9%252BQ%252BUYCxKXMVF6%252FT8Pp%252FieQbvlms%252FNrZw%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=Qc3noIhQGjNJBH8iSO2XnWTkfBdsVSt29ADFbXAL5wPOogNxg8nDjL31Lu1yNUPQnhdMJF812KJiS9DrPSmO1rz0BtpxYcd3vAGxNAl9w3p%252FF%252FqieYvU7xHJo8W7LzT%252BEED4Ca5LLhR%252F%252FBC%252FgLbjzznyTWVhyXiRrmGjhO2zTRrthLfp7lnsypqkNZLvPlLVza81%252B3LRakW0YbQJZKyP3HMv8KAcuOSfpCF1WZjmDVMmxWo%252BxUetTBj%252BYHuqYzBk&nr0=1&xbr0=&sarg=H6tjGzB9l1Vdmf%252F9WYDMrHRuo9Jt2uKqNmUinXYoGrlBTEZMX8OvXT2MJwwiy82Qh89ippUXjZV5ftO%252FTenrjuzKP63NOy0FSGdbVszqPANW3cLHKKeJMXsqs7PTxio0qybYY%252FBIb14ThKL1%252FRM5jKT1gSDEyI57DfkXILUXYPsEM%252FaWkIPKGzMss8Ok%252Bswj6HtRZRd9zbGhnLl9rdnUGKktA%252BxxUS%252BjUVjWtBp7PsISzrIo6PrTXAwbiTNcuaBVEEP19wS9nfUf%252FJj1rlCiNXJdS8XKrnP%252BIEHT5sRUGgY%253D&sreq=-1&finc=false&nco=0&pco=1"
       },
       {
-        "type": "Studio Suite",
+        "type": "Roxity Kids Suite",
         "description": "Spacious suite with a king-sized bed and living area.",
-        "price": 2500,
-        "photo": "https://via.placeholder.com/300x200",
+        "price": 1240,
+        "photo": "/src/Asset/room/room-5b.webp",
         "benefits": [
           "Exclusive access to Rock Royalty lounge",
           "Panoramic ocean view",
           "Free minibar"
-        ]
+        ],
+        "adults": 2,
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=PuNjRYk%252FWPa2XnKvGN%252BUqpRnMRxGOvsnVzGjiEFVi%252BH5Z5c4%252BoYb9gVCeD1u%252FlLJCmaa47WB5h9qE9h9WgIVy2noxPrRKbkYSLrJcA%252F55clRm8xA8x%252BPo8BrCMIu4pUikH4EDmgxy1iDhQTx21TVrY9PjF%252FrPxe1t8YBeN%252Bvwsg63yKSmLPL6MuSN73JKKBwKYd%252B9hXKkaenl1PYIi9hIfPgiQhqHouG1i%252BZMx2smbc3Mv%252FmFkMrDKEM5hzuMOsEgaSfjXenAgdOQM7ZZqvgXwN2fynXYG5lE4H9awl58DespMVZ4PE%252FDG6acMwMqHBgIidm8VxPu172zFBdA0UTWQ%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=IUoqhcdg1fFXD5B3g%252BcUoOGiqlOhg8rkaTVppMAFHl8hTuRazh5F4KroZe%252FQmVwZQ1LgD0FW8HsDmAv1izmyR5Gef6PJ0SQkmngdC7Pk%252FCirodRmMRSQ4Twde5VjP1PSZdze6Vpwpspi8TSTTH3fttRaXCmnaWjTRqP%252Fkmx%252F6p1gltL6JxTLsZq0gJFevEtLx7UKDnmSK4gELbEO3ZqQ2jZpk7N32fzWzPpkTWLv%252FAqPqZsv0v5j8jnBBM%252BmIn7m&nr0=1&xbr0=&sarg=0KAAerncEeSVcsAsjAsGL%252FBgZ5QMuyk21EO4BFDS1A4DA8RtJb3mM%252B2a%252FHlSALZsLbMnGqL9JzelA%252BTGKYJ%252Bj0WrKzsPBV%252BF3Ix8bnq7JcRnAnbwPS7B3pbkIuMNRpoktp%252F56JJxJ6YTg49Jgm1Nk1zQLj%252FeeYGIBhBxETrNc2Fxs4i9k80MFGNrLde3UfBT%252F3oz3xNiyYyz163MLyB5pD5ORcA7%252B%252BceSfXXcMEajWTbqRHKrH6nF2e5xphzwbZAvIAyDybdQWdUnwsRVharY4r7kxuNwr1n68W4%252BPmpZ3Y%253D&sreq=-1&finc=false&nco=0&pco=1"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Victoria Garden Hotel",
+    "location": "Georgetown",
+    "rating": 8.7,
+    "stars": 3,
+    "reviews": 1850,
+    "price": 261,
+    "image": "/src/Asset/hotel/hotel-6a.webp",
+    "address": "280 Lebuh Victoria, 10300 Georgetown., Georgetown, Penang, Malaysia, 10300",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.820495598442!2d100.3389859!3d5.4153624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac38dd55826ad%3A0xd831923cae0bb858!2sVictoria%20Garden%20Hotel!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
+    "city": "Georgetown",
+    "description": "Experience the charm of Victoria Garden Hotel. Perfect for solo travelers, this classic resort offers relaxation, local hospitality, stunning rooftop views, and comfort and convenience for your solo travel adventure. Experience the rich cultural heritage of Georgetown in Penang at Victoria Garden Hotel. Enjoy charming colonial buildings, vibrant street art, and delightful amenities like free WiFi, air conditioning, and room service. Stay in a comfortable room with modern comforts and enjoy city or nature views. With its strategic location, the hotel is perfect for solo travelers seeking convenience and a memorable stay. Explore nearby attractions like Prangin Mall, Chew's Jetty, and the famous street art in George Town. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
+    "images": [
+      "/src/Asset/hotel/hotel-6a.webp",
+      "/src/Asset/hotel/hotel-6b.webp",
+      "/src/Asset/hotel/hotel-6c.webp",
+      "/src/Asset/hotel/hotel-6d.webp",
+      "/src/Asset/hotel/hotel-6e.webp"
+    ],
+    "amenities": ["wifi", "pool", "concierge"],
+    "rooms": [
+      {
+        "type": "Deluxe Twin Room",
+        "description": "Rock-inspired room with modern amenities.",
+        "price": 261,
+        "photo": "/src/Asset/room/room-6a.webp",
+        "benefits": [
+          "Free breakfast",
+          "Rock-themed decor",
+          "Complimentary Wi-Fi"
+        ],
+        "adults": 2,
+        "children": 1,
+        "link": ""
+      },
+      {
+        "type": "Hollywood King Room",
+        "description": "Spacious suite with a king-sized bed and living area.",
+        "price": 242,
+        "photo": "/src/Asset/room/room-6b.webp",
+        "benefits": [
+          "Exclusive access to Rock Royalty lounge",
+          "Panoramic ocean view",
+          "Free minibar"
+        ],
+        "adults": 2,
+        "children": 1,
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Upper House Batu Kawan",
+    "location": "Bukit Mertajam",
+    "rating": 8.6,
+    "stars": 4,
+    "reviews": 850,
+    "price": 208,
+    "image": "/src/Asset/hotel/hotel-7a.webp",
+    "address": "22A, Jalan Vervea 10, Vervea, Bandar Cassia, Simpang Ampat, Bukit Mertajam, Penang, Malaysia, 14110",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.9102430226635!2d100.4380498!3d5.2399427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ab7abb260ba9b%3A0x47e8ef33268e26d7!2sThe%20Upper%20House%20Hotel!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
+    "city": "Bukit Mertajam",
+    "description": "Stay at The Upper House Batu Kawan, a modern business hotel located in the largest gated commercial precinct in Penang. Enjoy halal cuisine and book a memorable solo travel experience. Discover vibrant Bukit Mertajam in Penang as a solo traveler. Immerse in rich history, explore local markets, and savor delectable street food. Enjoy luxurious amenities like a sparkling pool, bar, and restaurant. Stay comfortably with air conditioning, Wi-Fi, and a refreshing shower. Optional city or nature views available. Convenient shuttle service for exploring. Experience comfort, convenience, and local culture at The Upper House Batu Kawan. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
+    "images": [
+      "/src/Asset/hotel/hotel-7a.webp",
+      "/src/Asset/hotel/hotel-7b.webp",
+      "/src/Asset/hotel/hotel-7c.webp",
+      "/src/Asset/hotel/hotel-7d.webp",
+      "/src/Asset/hotel/hotel-7e.webp"
+    ],
+    "amenities": ["wifi", "pool", "concierge"],
+    "rooms": [
+      {
+        "type": "Premier King",
+        "description": "Rock-inspired room with modern amenities.",
+        "price": 335,
+        "photo": "/src/Asset/room/room-7a.webp",
+        "benefits": [
+          "Free breakfast",
+          "Rock-themed decor",
+          "Complimentary Wi-Fi"
+        ],
+        "adults": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=2NOL%252FjEc8zxRWpZQfD%252FESBzH89jwts5X2kzooro3gHJrvH%252Bi0cLNGPmOG5cR%252BTd4vix8TFgqaaDuwiyDb3DBJ2q3zxqzLJMxYUVBLSyXfdArQHEGO2HwLJY6Zv3CXQVsLwul8PMncpMaiKE8HAQOCytqgjxmeRf%252B16Oal7KozwuX2MU566nRhL2AWC2BmNCdFro1bciKlweRPCS648Q%252FE%252BZfJ4S%252FYLIAP8PUBIEZFBwx6sakaoKzCkN%252FmaBuVmRhcJeZbuo8OiHXRVBQcH6gSKJI%252FPM9FSUY%252BNfHdMOWxjxIs89wWLjdqqVMQdw%252Fsi1fdXT69ay%252BcQA2fY8p61ly2Q%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=svO6lubvA6QLc3WqVKiOsHNBHaC1Kp5SgkwRnMunygojQfb8OOQ51%252BDhLFHkBeiRNnwDsD4cjz97rH32ODqKwaKQlJI9dxXLRfAy9ix%252FM3tQ34viHl7sjluhpeIZ7tZHnhm%252F%252BF5N%252BqFJg1EFmVXp7I%252BKFNuVArUgYyZU8cZPHQvObzz3zXDRcR0rOWp%252F2UuWAemxQ%252FlbgPuKeZ0rQQUPZml9fzoQFBW8cvlidjxSxAa%252F3qBkVL6%252Fa1JG1SS8J0r0%252Bssi2sC%252FNgOEna8iU4UUo3w%252FLdb%252FAa%252FEdBO1u%252FbWqg0%253D&nr0=1&xbr0=&sarg=NsP6zdtspAhK6aoDdLqrTugl3RvcsIkTTpdE%252BD3M2hYSbnAjOao%252FfzKoxd8N4OxuTxhsvYfUB%252F%252Fmo%252B76ANE4Enrcke3zvSNFdkeA3qOOeIFyCU3eniII7YZznZb4IH2YEralJJETb0jJR2UhyIvgX7z%252BZYe8WsZh4CP%252FcZ1dal3a89scQQt1bUuVTf9wZ%252FWf8iIyrR%252F2h5IArUX9IbfS%252B%252Bp1s1gtKDXoJc5RBK%252F9mb6Bf93ofSt1AzvIgn2DkttIezjrAdyNQ3No45fA4GEnfRbT2NH6GINAePyqYQF7mOc%253D&sreq=-1&finc=false&nco=0&pco=1"
+      },
+      {
+        "type": "Standard Twin",
+        "description": "Spacious suite with a king-sized bed and living area.",
+        "price": 208,
+        "photo": "/src/Asset/room/room-7b.webp",
+        "benefits": [
+          "Exclusive access to Rock Royalty lounge",
+          "Panoramic ocean view",
+          "Free minibar"
+        ],
+        "adults": 2,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=PuNjRYk%252FWPa2XnKvGN%252BUqtxmNA0eNxuhdADdPFN%252Bxl3B%252BtUaTVSc7nWSnbyBUdyx0LAzNYRTBFS%252BRMW0v5kYfA6PMjSlSSzZXi71BE9ORwaPrFce225cme5gFwCjYZ1c3FgrZLddyKOtVred07Z3NU9sNUC85x%252FW1xo0rH%252FBB%252Fjtrs2l5pTNly2hRQs1ItjrJbI122Iepw2JxpwOf%252Fbjo2vM1uorWqwDeKwswWY%252BavxVHZ%252Bcib8UEuiGkLsOWjP8dyrwMFJ%252FEvR07B2YwD3A5KN9CSkvlqusT1Y%252B3xICf7z25FiDdSC%252FuVyHfMhtWQyVsDeE1O6twoXsdJ4Ipf0INw%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=z%252B3vcPzzmyUWSlPdOmHqW1AcgsapSlxLN%252Bh5Vxjyygi7cuwNaigWO9qEUg4LO%252F%252Bxs%252BfGDv8HOejZPcttDe8Qd5J1oRdSufmaJcmtIVM%252FaBtNBke3Vg9OHW3N5tmLNaSpagIYxbiMP%252F1SpfiXmU4FIx4x5d7orC%252FYc7cs8WnZQW6MMaOhPFxrRacdZGtlkSgKXcTerV%252F%252FipVBRbGHX9N2fvo6Mzqv5cVd9wxPuFz1N%252BTgxDDtQ8PVfQZ0SAWfqm0LESkB%252FeCVdm1IMkGITzn8N%252FVbNtN216kCO%252BB83NrxQ3E%253D&nr0=1&xbr0=&sarg=qjlpX5rmS5KildQm3prikHbvBwXSp6zP54ijHd8zx%252FDuaYAicPKuR2GEIRnYPfLHgtkiDnrBhMDhCUKDfPBnkZkmEZ7tMACHGBB3Pl4MD6fa8wjmPqn3bKf9AvZ25ZinD4ryw2iLmgNNYFBC%252BAom5GSbwGK75MU8Yq%252FZbj0HaUfl%252FB8bGnInkAAI6u58WdvFtrnfILE5SIqnIt0BJ4AWfs%252F9cInvmzewHX%252F5MBPl%252FhGARC8G9JlB8FkSMeqzPexMAuCR1RWz0Jmxz3bsGtQXiIr7kxuNwr1n68W4%252BPmpZ3Y%253D&sreq=-1&finc=false&nco=0&pco=1"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wesley Hotel",
+    "location": "Batu Ferringhi",
+    "rating": 8.6,
+    "stars": 5,
+    "reviews": 2238,
+    "price": 196,
+    "image": "/src/Asset/hotel/hotel-8a.webp",
+    "address": "33, Jalan Juru, Juru Sentral, Seberang Perai, Bukit Mertajam, Penang, Malaysia, 14000",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.221310572699!2d100.4330501!3d5.3436086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac7d41610f675%3A0xf7ef48ccaad68417!2sWesley%20Hotel%2C%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
+    "city": "Batu Ferringhi",
+    "description": "Discover colorful Bukit Mertajam in Penang, known for its history, markets, and street food. Stay at Wesley Hotel for solo travelers. Enjoy 24-hour CCTV security, airport transfer, complimentary Wi-Fi, and modern showers. Indulge in city views and free Netflix. Wesley Hotel offers convenience and value with its mainland location near restaurants and pubs. Start your day with breakfast and fast room service. Explore the city easily with proximity to public transportation. Book your comfortable stay at Wesley Hotel for an unforgettable trip. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
+    "images": [
+      "/src/Asset/hotel/hotel-8a.webp",
+      "/src/Asset/hotel/hotel-8b.webp",
+      "/src/Asset/hotel/hotel-8c.webp",
+      "/src/Asset/hotel/hotel-8d.webp",
+      "/src/Asset/hotel/hotel-8e.webp"
+    ],
+    "amenities": ["wifi", "pool", "concierge"],
+    "rooms": [
+      {
+        "type": "Deluxe King",
+        "description": "Rock-inspired room with modern amenities.",
+        "price": 196,
+        "photo": "/src/Asset/room/room-8a.webp",
+        "benefits": [
+          "Free breakfast",
+          "Rock-themed decor",
+          "Complimentary Wi-Fi"
+        ],
+        "adults": 2,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=2NOL%252FjEc8zxRWpZQfD%252FESNX8UDIJydymhFGJ2X%252FMNL%252BS9u1TKa7TpgIOmCXE1fPqx66rvXZNFdcPz5HwFzqnsZKGs2OevghMji67De1g2DZjdLV7hKbTjQEBD3kmuWb65zWOP5v3XxeBmB1NwV5YFswdSFpfkWQzRpedzcrfK5rMGcRrvfd%252F%252BkoP4qwm7zrWSBpVnNO2nIOGjmrnJiih%252BSuvRcnH9A7N3DjCtOwz7%252BnKJ7YG4KMaLvAgPYJ0oIxFkBBfTaSnUWAgblzrLXnTRD4FAtyAkOIWTlWALF2EeZU0pfE5rD%252FA4RmxJ8SJ4%252BxaM3x4RMPSk4F2Pm4gkyBk3g%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=CyE4FKuBN6hC32bvnBMyz%252FYCgX2huvX6Hmt1jCkDX02d4Yh5670pKrCR6P3OX4ZirqVfq9fD4M3QbWrLEXVllz7cHMcwbx6iS%252BunBtU4FnGmPdJCIWBcjZuOQBmPwp07Ky%252BmfEuCubZu39oUgbsyIGg7CyBCMAmtIp7RiXrScqtSh7uydqOOpbeCgj8QZNbqMzj5LfjsiUAGKeC1pCO5g6lRHsM4FzanfP2V4ZnNnBSbGm4mueuUDKV3yoK1ODIpYIt%252F91spRslhMrruQjWITg%253D%253D&nr0=1&xbr0=&sarg=dK28m82edcZ8c%252F3O2vFemINWi%252FJPwQCUe7ofbnpUYjYinuVa3cSo5Bm7jdf4duJI6AavQS026lL2w3URqx5ejKYt1tzhDSs8qmfDCXdQYHsBhWPrD0sPKt9G%252BFbTn6ML3Oaj%252FJ%252BIAdHz9T%252Fu4t4akXpUJqAavQ1H0gHozChBF1%252BPXPK4ZiUFENrtayiIw9w5KLOH8uhhwZoCxOS77s8KrXyGs5oyoEOixBwAObdtphQy2vFIpk2iKn6h81RkhnTubud2sE0mqqBr8qXFYOfK1xbT2NH6GINAePyqYQF7mOc%253D&sreq=-1&finc=false&nco=0"
+      },
+      {
+        "type": "Premier King",
+        "description": "Spacious suite with a king-sized bed and living area.",
+        "price": 251,
+        "photo": "/src/Asset/room/room-8b.webp",
+        "benefits": [
+          "Exclusive access to Rock Royalty lounge",
+          "Panoramic ocean view",
+          "Free minibar"
+        ],
+        "adults": 2,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=yDMCJMZ203IY6eE6GzNAnpHv5DGUyBERm782F2zVI1lgmklEy7AYuXhAgmCW7vAsalVv87DZQJ%252Fw9w1palEFcv4K0tjatYi3nMQjZC9zULI5ZGa0aTvXiZoi4lN%252BxIZSdgmnxoLZ3Yfckrz9G%252FB8tF16Y2oE9MAMWzLBsJFr7ZwgdRoCoOz%252FoSeJu1cn6xfZ5ZLQ67XeeLBUmINM%252Fbeiif4v4YcpRl1cNl4VLdN3pZfeoZAtKAdJOaOhzMo7Vl%252B2bM14V1KdDPgeiIYu2k14YtqIH%252F8DnZxg059bA2aU6Z7vjOrQVkxor1vm%252FYkGfzdx%252F7%252BrytgvempmmLivkNq01w%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=TrpI%252F3aNAOKAx2ZSck%252FQYPLjQcoPVuN3CFBVUYMdErCIBPx0bStI8btKOAg56oWbSpZxMmewN5r3hft%252FE14e4QbK9ylvK91cG8K%252FpSJGxGovMVGEWCgwEBWgNs4ZcJ1zAnemWDHF885oMlzipAI4db8ngIqnm%252FCZ2XihfavJt2hx92DxS6fdYjwts4k37UzAclIfJHqdwCva2STdGtxHUIOjQfVu8Xt28h1sP%252B0MB2EY9m9yFDfniiyZRFC4BAxmH%252BmygKxfA6xUbBtKCHGpzQ%253D%253D&nr0=1&xbr0=&sarg=ppTZKrOIP4hD69KcVQ3fUJRKXz%252FN5nrGRZnOCN5boEWE2JhjE13BN6YexVbWVSPBZKov6gqMp11XTjjI%252BU9%252FxMU6tD%252FD847w7MvsIIT6sB%252FuVR%252FsTurQtkWQlzBfspAJR3Cyqnop7FPywYXgHx2iFOsJrfCe7NIS%252BKlk8ORllPbNi2pgUDv46oTpL9UbCm9xBYg4bKqQS0zMwzAUyVrHdt%252FALoVUm7gm%252B3RlSyq7VLzbEFfqH1YXGIZrbeGoZF%252F1CI9uQa96RnZ5jHg8fPPt1hbT2NH6GINAePyqYQF7mOc%253D&sreq=-1&finc=false&nco=0"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "DoubleTree Resort by Hilton Penang",
+    "location": "Batu Ferringhi",
+    "rating": 8.6,
+    "stars": 4,
+    "reviews": 2343,
+    "price": 263,
+    "image": "/src/Asset/hotel/hotel-9a.webp",
+    "address": "56, Jalan Low Yat, Batu Ferringhi, Penang, Malaysia, 11100",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1099052180093!2d100.2668979!3d5.477507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304add52251e055b%3A0x70ffc276d5ae668!2sDoubleTree%20Resort%20by%20Hilton%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
+    "city": "Batu Ferringhi",
+    "description": "Ideal for solo travelers, the modern DoubleTree Resort by Hilton in Penang offers stunning sea views and a beachfront location. Enjoy a complimentary shuttle service to nearby attractions and explore the unique teddy bear museum. With a variety of activities, this resort ensures a memorable stay for solo adventurers. Explore the DoubleTree Resort by Hilton Penang for an unforgettable solo adventure! Enjoy stunning beaches, vibrant night markets, and the lively atmosphere of Penang. Relax by the refreshing pool with breathtaking views and savor a drink in the luxurious bar. The comfortable rooms offer air conditioning, complimentary Wi-Fi, and indulgent toiletries. Conveniently located near Adventure Zone and other popular landmarks, it's the perfect choice for solo travelers looking to create lasting memories. Book now and embark on your solo journey! [Some content may be Generative AI assisted. Inaccuracies may occur.]",
+    "images": [
+      "/src/Asset/hotel/hotel-9a.webp",
+      "/src/Asset/hotel/hotel-9b.webp",
+      "/src/Asset/hotel/hotel-9c.webp",
+      "/src/Asset/hotel/hotel-9d.webp",
+      "/src/Asset/hotel/hotel-9e.webp"
+    ],
+    "amenities": ["wifi", "pool", "concierge"],
+    "rooms": [
+      {
+        "type": "King Deluxe Room Balcony",
+        "description": "Rock-inspired room with modern amenities.",
+        "price": 263,
+        "photo": "/src/Asset/room/room-9a.webp",
+        "benefits": [
+          "Free breakfast",
+          "Rock-themed decor",
+          "Complimentary Wi-Fi"
+        ],
+        "adults": 2,
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=6lmAPm%252FYDOV8eqEuP3wQc43nO6%252FssS7KE3JylUvonU1Ewpge8H20T4J1381%252FyprT8Nh4Ilg1dq%252FRZSxFODYEmpy%252FHNAYf9PF1WozuAzunwcd%252B4McfAeMJgjpE93DlKgrAapQhRTKLmcALZ%252FYKyzn%252FFVohOof1cktnQ7D7m6J6zTWSAjF1hw9MxiuVoqWvPAkrSqbfUd8BW4JBWaytinIrsWCKpKuTSXgkVbUp0OVtnPL1TBPzsaXRJSFIF3k82CSXRJ228nrvtdmEAn4oYK9ule1zTA6aVyNzGERk%252FmkA7vzEM9UkxL4wW%252BgJkoqjsUcYQXdTh%252B8gVqa%252BweDST5xQA%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=gGCH%252F9Zc50RxXfKXhV7ltUSytxmveqQc8VkrIPKcJ3S7i55MfBhS5Ev1kdFe2mmy4%252Fp6sDOip2w6x2ZW13jhrl1Ko6RXEj3royCUsxD1ZCfc54Zc7iG17NJEgRmbIyxeOM0u491o15XU4IDg2AhC5WnCC2Lq%252Fv73RHO2TCoXHfW5%252FRYOCx9VCU%252B%252F2NdTO34fN3R5M0cjYSkm%252B%252FedIj0dij%252FnOtAwKC0LrjJPvIY%252F1OkefD28dL%252FKvi1xvjIorzTxRoVaPH4hpnXo%252Bp3k5Q7fbHDhRrPbPQ7tkYxFAqPm4QljSxrjWSLqDER5l69yBV33snVVZd9UUUDXODT9T8B%252F%252FYn%252B4YAEubHm5GwSTqazVa2%252BELglgAsce3PJJ4aKFTM6FtPY0foYg0B4%252FKphAXuY5w%253D%253D&nr0=1&xbr0=&sarg=t3jA%252F%252BhJiWCD%252F2d26pU1YEvlN9WRPdLwFMkD5RW1OfPcZt2g774tPCoW%252BDYBUIfaYwsNA3OiDj2u2o2J%252BFiH9t2opIDg0leuN26zjVKzwzypWjFwbvNZuDAmSrik1mowaey2%252FKsECp3KllwNava%252FLx1HAuRRLJ8mjMzom%252B5s86hqG4CZFi13ArQnISOimkEOuzgmzzl8ASwEk7nxvKQH0e7u2lILIPDYC2YNRzZjKzMyzskBGimjwl6KKzed7CVrEtgAtvpOgyz6JScvHUcLAW5Pj5hX0MKE1lfS88tSdik%253D&sreq=-1&finc=false&nco=0"
+      },
+      {
+        "type": "Twin Guest Room",
+        "description": "Spacious suite with a king-sized bed and living area.",
+        "price": 263,
+        "photo": "/src/Asset/room/room-9b.webp",
+        "benefits": [
+          "Exclusive access to Rock Royalty lounge",
+          "Panoramic ocean view",
+          "Free minibar"
+        ],
+        "adults": 2,
+        "children": 1,
+        "link": "https://www.agoda.com/book/?cnty=198&secdat=2NOL%252FjEc8zxRWpZQfD%252FESAp0EAIxxGAm5jD19o%252FBy6iBVulVF2QUwNi3Nl59sujpJ5tFsRXR5SuQXGW6MV908p0bGZ1LaUqkR1vpdgN441B%252BEVcCo0D6BaggaISjM2K7GbYeqx9EOWOIlqM5pFSg5ZBo9H0HrCLNY0KhvFNxOS0Frk%252F74Jkz0uZbDboh0CYB4plPh%252F9GOMXq%252F7fnimKhhGt2NPjZtbvfUg1OaLOqtUXhi9IvuRjSe2kgKJBRMgxZ2SKGjBXqMyHyA244mOmXSIN0X0ujahhfEMhmx5N2pqyBLSdY%252FQ8wbUzvI13bIx5EdLR3KWtLg1%252BOvksISbUQtQ%253D%253D&v=29&cnIcp=0&dclid=&gclid=&ame=&aso=&aca=&aco=&ate=&mrs=0&siteId=1915003&ori=MY&r0=TcIiPkhHG23n4X9umyskp9gOVmPBsbXKrlAvtQVqIdj2MVDjuqd5UVIP1CigoCjW%252BaRE0%252BXhZvrwNUm7p2KvN%252BGYOCCdmB65jWuhpWiQ3Ks5fYOC2IM3Sq7YVyyNZKtTB4TCfdZuA9d5g4Z29LzN%252FbVqM6E6arjWG0IHO0bc5iF9wqFRdRQ9j9IVRL34jdUuvyTNr7v%252FMKqM5Iv951%252F%252BnjPAE8A8QcQkn1RrfEkvwOVkqC4457E8jxnB6OY4WEzCWxmbqq4ZLjLbdjDzao9ciIIQcqrwrNl0L%252F1YKIwjTG6KO4VrNiJY%252BhKCWi%252FC8HRDLQTlcVaAy%252BzDn0C2SAr6B2je%252B4KzZnioxXlgbGY%252FRRxZEgyTup86MmJehenMIIecQ6XxLArDMMOYCJnXivX%252F4Q%253D%253D&nr0=1&xbr0=&sarg=DL%252FxqAPLTDbTOxLliW1ou5FJNshe9d5GYtxHt8En8PYbhQqdwZHV4XdRKKyGhynyOGBdg7NX7EfKBs0kquSMMvg1DNPUtreotIN8HM2YzK05fhoEroHsXtdVB4lxAnLJafaz%252FA7yCI9t3w6O3z78nSC3gAoDliFUFs0NzMcOywGfBRVwZ8o8CvdhNR1%252FOPv%252BRpeRzsePl4WMsaaxpRLpMP0M%252FLVBMcnLm%252BTsIbhmTrke3cEWEWuV22s2if47m8z6mR8jDbXYXRvtyOJCmI1h625Pj5hX0MKE1lfS88tSdik%253D&sreq=-1&finc=false&nco=0"
       }
     ]
   }
