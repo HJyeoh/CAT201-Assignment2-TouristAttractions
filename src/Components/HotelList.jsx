@@ -1,25 +1,44 @@
 import React, { useState, useEffect } from "react";
-import HotelCard from "./HotelCard";
-import NewHotelCard from "./NewHotelCard"; // Import the new card component
+import PropTypes from "prop-types";
+import NewHotelCard from "./NewHotelCard";
 import hotelsData from "../data/hotels.json";
 
-const HotelList = () => {
+const HotelList = ({ filters }) => {
   const [hotels, setHotels] = useState([]);
 
   useEffect(() => {
-    // Load all hotels
+    // Load all hotels from the initial dataset
     setHotels(hotelsData);
   }, []);
+
+  // Filter hotels based on location (name or city)
+  const filteredHotels = hotels.filter((hotel) => {
+    const searchTerm = filters.location.toLowerCase(); // Normalize search term
+    const hotelName = hotel.name.toLowerCase();
+    const hotelCity = hotel.location.toLowerCase();
+
+    // Check if either the hotel name or the city contains the search term
+    return hotelName.includes(searchTerm) || hotelCity.includes(searchTerm);
+  });
 
   return (
     <div>
       <div className="flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-        {hotels.map((hotel) => (
-          <NewHotelCard key={hotel.id} hotel={hotel} />
-        ))}
+        {filteredHotels.length > 0 ? (
+          filteredHotels.map((hotel) => (
+            <NewHotelCard key={hotel.id} hotel={hotel} />
+          ))
+        ) : (
+          <p>No hotels found for the selected location.</p>
+        )}
       </div>
     </div>
   );
+};
+HotelList.propTypes = {
+  filters: PropTypes.shape({
+    location: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default HotelList;

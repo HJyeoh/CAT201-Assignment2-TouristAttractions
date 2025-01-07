@@ -4,19 +4,13 @@ import HotelList from "../Components/HotelList";
 
 const HotelPage = () => {
   const [filters, setFilters] = useState({
-    priceRange: [],
-    starRating: [],
-    location: "",
-    checkInDate: "",
-    checkOutDate: "",
-    rooms: 1,
-    adults: 1,
-    children: 0,
+    location: "", // Filter by location (hotel name or city)
   });
 
   const handleSearch = (searchParams) => {
-    setFilters(searchParams);
+    setFilters(searchParams); // Update location filter
   };
+
   return (
     <div className="lg:mx-32 md:mx-16 mx-8">
       <SearchFilterBar onSearch={handleSearch} />
