@@ -49,8 +49,8 @@ export default function Navbar() {
             <div className="flex shrink-0 items-center">
               <img alt="Logo" src={logo} className="h-20 w-auto" />
             </div>
-            <div className="hidden sm:ml-6 sm:block">
-              <div className="flex items-center justify-center space-x-4 h-full">
+            <div className="hidden sm:ml-6 sm:block md:ml-[19%]">
+              <div className="flex text-center items-center justify-center space-x-4 h-full">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
@@ -60,7 +60,7 @@ export default function Navbar() {
                       item.current
                         ? "bg-gray-900 text-white"
                         : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "rounded-md px-3 py-2 text-sm font-medium"
+                      "rounded-md px-3 py-2 lg:text-md text-sm font-bold"
                     )}
                   >
                     {item.name}

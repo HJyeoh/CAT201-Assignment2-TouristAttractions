@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import NewHotelCard from "./NewHotelCard";
+import HotelCard from "./HotelCard";
 
 const RelatedHotel = ({ hotels }) => {
   // Filter hotels with a rating greater than 7
@@ -13,10 +13,9 @@ const RelatedHotel = ({ hotels }) => {
 
   return (
     <div className="related-hotels">
-      <h2 className="text-2xl font-bold mt-6 mb-4">Recommended Hotels</h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
         {randomHotels.map((hotel) => (
-          <NewHotelCard key={hotel.id} hotel={hotel} />
+          <HotelCard key={hotel.id} hotel={hotel} />
         ))}
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import NewHotelCard from "./NewHotelCard";
+import HotelCard from "./HotelCard";
 import hotelsData from "../data/hotels.json";
 
 const HotelList = ({ filters }) => {
@@ -26,7 +26,7 @@ const HotelList = ({ filters }) => {
       <div className="flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         {filteredHotels.length > 0 ? (
           filteredHotels.map((hotel) => (
-            <NewHotelCard key={hotel.id} hotel={hotel} />
+            <HotelCard key={hotel.id} hotel={hotel} />
           ))
         ) : (
           <div className="mb-16 text-center">

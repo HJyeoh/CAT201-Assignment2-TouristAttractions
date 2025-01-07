@@ -224,6 +224,7 @@ const HotelCertainPage = () => {
         <h2 className="text-2xl font-bold mt-6 mb-4">Location</h2>
         <GoogleMapEmbed mapLink={hotel.googleMap} />
       </div>
+      <h2 className="text-2xl font-bold mt-6 mb-4">Recommended Hotels</h2>
       <RelatedHotel hotels={hotelData} />
     </div>
   );
