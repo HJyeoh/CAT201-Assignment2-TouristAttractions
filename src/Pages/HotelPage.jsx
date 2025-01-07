@@ -3,12 +3,11 @@ import SearchFilterBar from "../Components/SearchFilterBar";
 import HotelList from "../Components/HotelList";
 
 const HotelPage = () => {
-  const [filters, setFilters] = useState({
-    location: "", // Filter by location (hotel name or city)
-  });
+  const [filters, setFilters] = useState({ location: "" });
 
   const handleSearch = (searchParams) => {
-    setFilters(searchParams); // Update location filter
+    console.log("Filters updated:", searchParams); // Debug log
+    setFilters((prevFilters) => ({ ...prevFilters, ...searchParams }));
   };
 
   return (

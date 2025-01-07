@@ -125,25 +125,25 @@ const HotelCertainPage = () => {
         <h2 className="text-xl font-bold mb-4">Amenities and facilities</h2>
         <ul className="flex flex-row justify-evenly">
           {hotel.amenities.includes("breakfast") && (
-            <li className="flex flex-col items-center justify-center">
+            <li className="flex flex-col items-center justify-center text-center">
               <MdOutlineFreeBreakfast className="w-14 mb-2 text-blue-500" />
               <p className="text-sm">Breakfast</p>
             </li>
           )}
           {hotel.amenities.includes("wifi") && (
-            <li className="flex flex-col items-center justify-center">
+            <li className="flex flex-col items-center justify-center text-center">
               <FaWifi className="w-12 mb-2 text-blue-500" />
               <p className="text-sm">Free Wi-Fi</p>
             </li>
           )}
           {hotel.amenities.includes("pool") && (
-            <li className="flex flex-col items-center justify-center">
+            <li className="flex flex-col items-center justify-center text-center">
               <FaSwimmingPool className="w-12 mb-2 text-blue-600" />
               <p className="text-sm">Swimming Pool</p>
             </li>
           )}
           {hotel.amenities.includes("concierge") && (
-            <li className="flex flex-col items-center justify-center">
+            <li className="flex flex-col items-center justify-center text-center">
               <FaConciergeBell className="w-14 mb-2 text-blue-500" />
               <p className="text-sm">Concierge Service</p>
             </li>
@@ -157,10 +157,19 @@ const HotelCertainPage = () => {
         {filteredRooms.map((room, index) => (
           <div
             key={index}
-            className="room-option bg-white text-black rounded-md mb-4 flex flex-row gap-4"
+            className="room-option bg-white text-black rounded-md mb-4 flex md:flex-row flex-col gap-4"
           >
             {/* Room Image */}
-            <div className="room-image lg:w-1/5 w-2/5">
+            <div className="room-image lg:w-1/5 w-2/5 hidden md:block">
+              <img
+                src={room.photo}
+                alt={`${room.type} view`}
+                className="w-full h-full rounded-l-md"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="room-image md:hidden block">
               <img
                 src={room.photo}
                 alt={`${room.type} view`}
@@ -170,7 +179,7 @@ const HotelCertainPage = () => {
             </div>
 
             {/* Room Details */}
-            <div className="room-details md:w-3/5 p-4">
+            <div className="room-details md:w-3/5 md:px-4 px-6 md:my-4 mt-0 mb-4">
               <h3 className="font-bold text-lg mb-2">{room.type}</h3>
               <ul className="text-md mb-4">
                 {room.benefits.map((benefit, idx) => (
