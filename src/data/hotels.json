@@ -9,9 +9,12 @@
     "price": 1200,
     "image": "https://via.placeholder.com/300x200",
     "address": "10 Lebuh Farquhar, George Town, 10200 George Town, Pulau Pinang",
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9434520031555!2d100.26586257474408!3d5.42556249455374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac27b82385471%3A0x2974f8d6b01c821b!2sThe%20Habitat%20Penang%20Hill!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "George Town",
     "description": "Luxury heritage hotel by the sea.",
     "images": [
+      "https://via.placeholder.com/300x200",
+      "https://via.placeholder.com/300x200",
       "https://via.placeholder.com/300x200",
       "https://via.placeholder.com/300x200",
       "https://via.placeholder.com/300x200"

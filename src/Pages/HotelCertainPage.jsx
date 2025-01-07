@@ -1,9 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import PropTypes from "prop-types";
 import {
-  FaMapMarkerAlt,
-  FaStar,
   FaWifi,
   FaSwimmingPool,
   FaConciergeBell,
@@ -11,25 +8,19 @@ import {
   FaChild,
 } from "react-icons/fa";
 import hotelData from "../data/hotels.json";
-import { MdOutlineStarPurple500 } from "react-icons/md";
-import SearchFilterBar from "../Components/SearchFilterBar";
+import { MdOutlineStarPurple500, MdOutlineFreeBreakfast } from "react-icons/md";
+import GoogleMapEmbed from "../Components/GoogleMapEmbed";
+import RelatedHotel from "../Components/RelatedHotel";
 
-// Assuming you have a function to fetch hotel data
 const fetchHotelData = (id) => {
-  // This would typically be an API call, but for now, I'll simulate it
   const hotels = hotelData;
   return hotels.find((hotel) => hotel.id === parseInt(id));
 };
 
 const HotelCertainPage = () => {
-  const { id } = useParams(); // Access the hotel ID from the URL
+  const { id } = useParams();
   const [hotel, setHotel] = useState(null);
-
-  useEffect(() => {
-    // Fetch the hotel data when the component mounts
-    const fetchedHotel = fetchHotelData(id);
-    setHotel(fetchedHotel);
-  }, [id]); // Run this effect when the id changes
+  const [filteredRooms, setFilteredRooms] = useState([]); // Separate state for filtered rooms
 
   const [filters, setFilters] = useState({
     priceRange: [],
@@ -43,27 +34,29 @@ const HotelCertainPage = () => {
   });
 
   useEffect(() => {
-    if (!hotel) {
-      return;
+    const fetchedHotel = fetchHotelData(id);
+    setHotel(fetchedHotel);
+    if (fetchedHotel) {
+      setFilteredRooms(fetchedHotel.rooms); // Initialize filtered rooms
     }
+  }, [id]);
+
+  useEffect(() => {
+    if (!hotel) return;
 
     const applyFilters = () => {
-      let filteredRooms = hotel.rooms;
+      let rooms = hotel.rooms;
 
-      // Filter by price range
       if (filters.priceRange.length === 2) {
         const [minPrice, maxPrice] = filters.priceRange;
-        filteredRooms = filteredRooms.filter(
+        rooms = rooms.filter(
           (room) => room.price >= minPrice && room.price <= maxPrice
         );
       }
 
-      // Add more filtering logic (e.g., star rating, location, etc.) as needed
+      // Add more filtering logic here if needed
 
-      setHotel((prevHotel) => ({
-        ...prevHotel,
-        rooms: filteredRooms,
-      }));
+      setFilteredRooms(rooms); // Update filtered rooms instead of hotel
     };
 
     applyFilters();
@@ -73,32 +66,30 @@ const HotelCertainPage = () => {
     return <div>Loading...</div>;
   }
 
-  const handleSearch = (searchParams) => {
-    setFilters(searchParams);
-  };
-
   return (
-    <div className="lg:mx-48 md:mx-16 mx-8 hotel-detail-page">
-      <div className="mb-28"></div>
-      <SearchFilterBar onSearch={handleSearch} />
+    <div className="lg:mx-32 md:mx-16 mx-8 hotel-detail-page mb-8">
+      <div className="mb-24"></div>
+
       {/* Photo Gallery */}
-      <div className="photo-gallery flex md:flex-row flex-col gap-4 mb-8">
-        <div className="main-image w-3/6">
+      <div className="photo-gallery flex md:flex-row flex-col md:gap-4 gap-2 md:mb-8 mb-4">
+        <div className="main-image md:w-3/6 w-full">
           <img
             src={hotel.images[0]}
             alt={`${hotel.name} main view`}
-            className="w-full h-auto rounded-md"
+            className="w-full h-[101%] rounded-md"
           />
         </div>
-        <div className="side-images flex flex-col w-2/7 gap-2">
-          {hotel.images.slice(1, 4).map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`${hotel.name} view ${index + 2}`}
-              className="w-full h-auto rounded-md"
-            />
-          ))}
+        <div className="side-images md:w-[50%]">
+          <div className="grid md:grid-cols-2 grid-cols-4 md:gap-4 gap-2">
+            {hotel.images.slice(1, 5).map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`${hotel.name} view ${index + 2}`}
+                className=" h-auto rounded-md"
+              />
+            ))}
+          </div>
         </div>
       </div>
 
@@ -125,8 +116,14 @@ const HotelCertainPage = () => {
 
       {/* Amenities */}
       <div className="amenities bg-white p-4 text-black rounded-md mb-4">
-        <h2 className="text-xl font-bold mb-4">Amenities</h2>
+        <h2 className="text-xl font-bold mb-4">Amenities and facilities</h2>
         <ul className="flex flex-row justify-evenly">
+          {hotel.amenities.includes("breakfast") && (
+            <li className="flex flex-col items-center justify-center">
+              <MdOutlineFreeBreakfast className="w-14 mb-2 text-blue-500" />
+              <p className="text-sm">Breakfast</p>
+            </li>
+          )}
           {hotel.amenities.includes("wifi") && (
             <li className="flex flex-col items-center justify-center">
               <FaWifi className="w-12 mb-2 text-blue-500" />{" "}
@@ -151,13 +148,13 @@ const HotelCertainPage = () => {
       {/* Booking Options */}
       <div className="booking-options">
         <h2 className="text-2xl font-bold mt-6 mb-4">Available Rooms</h2>
-        {hotel.rooms.map((room, index) => (
+        {filteredRooms.map((room, index) => (
           <div
             key={index}
             className="room-option bg-white text-black p-4 rounded-md mb-4 flex flex-row gap-4"
           >
             {/* Room Image */}
-            <div className="room-image w-1/5">
+            <div className="room-image lg:w-1/5 w-2/5">
               <img
                 src={room.image}
                 alt={`${room.type} view`}
@@ -166,21 +163,30 @@ const HotelCertainPage = () => {
             </div>
 
             {/* Room Details */}
-            <div className="room-details w-3/5">
+            <div className="room-details md:w-3/5">
               <h3 className="font-bold text-lg mb-2">{room.type}</h3>
-              <ul className="text-sm mb-4">
+              <ul className="text-md mb-4">
                 {room.benefits.map((benefit, idx) => (
                   <li key={idx}>• {benefit}</li>
                 ))}
               </ul>
-              <div className="flex items-center gap-2">
-                <FaUser /> <span>{room.adults} Adults</span>
+              <div className="flex items-center gap-2 text-gray-700">
+                <FaUser className="" /> <span>{room.adults} Adults</span>
                 <FaChild /> <span>{room.children} Children</span>
+              </div>
+              <div className="md:hidden text-justify">
+                <p className="font-bold text-xl my-2">
+                  RM {room.price}{" "}
+                  <span className="font-normal text-base ">/ per night</span>
+                </p>
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
+                  Book Now
+                </button>
               </div>
             </div>
 
             {/* Price and Booking */}
-            <div className="room-booking w-1/5 text-center">
+            <div className="room-booking lg:w-1/5 md:w-2/5 text-center items-center justify-center p-8 hidden md:block">
               <p className="font-bold text-xl mb-2">RM {room.price}</p>
               <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
                 Book Now
@@ -189,6 +195,11 @@ const HotelCertainPage = () => {
           </div>
         ))}
       </div>
+      <div>
+        <h2 className="text-2xl font-bold mt-6 mb-4">Location </h2>
+        <GoogleMapEmbed mapLink={hotel.googleMapsLink} />
+      </div>
+      <RelatedHotel hotels={hotelData} />
     </div>
   );
 };

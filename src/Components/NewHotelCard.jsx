@@ -27,7 +27,7 @@ const NewHotelCard = ({ hotel }) => {
 
   return (
     <div
-      className="hotel-card flex flex-col items-left text-left bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform transform cursor-pointer"
+      className="hotel-card flex flex-col items-left text-left bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform transform cursor-pointer z-10"
       onClick={handleCardClick} // Add onClick handler here
     >
       <img
