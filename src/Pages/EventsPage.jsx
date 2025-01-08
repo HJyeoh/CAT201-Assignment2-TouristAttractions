@@ -86,7 +86,10 @@ const EventsPage = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-8">
         {filteredEvents.map((event) => (
-          <div key={event.id} className="p-4 shadow-md flex flex-col">
+          <div
+            key={event.id}
+            className="p-4 shadow-md flex flex-col transform transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+          >
             <Link to={`/events/${event.id}`}>
               <img
                 src={event.poster}

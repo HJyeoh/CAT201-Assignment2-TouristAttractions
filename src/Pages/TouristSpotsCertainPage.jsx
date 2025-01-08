@@ -7,6 +7,8 @@ import RelatedSpots from "../Components/RelatedSpots";
 
 const TouristSpotsCertainPage = () => {
   const { spotId } = useParams(); // Get the 'spotId' from the URL
+  
+  window.scrollTo(0, 0);
 
   // Find the spot that matches the 'spotId' from the sections
   const spot = Object.values(sections)
@@ -23,11 +25,11 @@ const TouristSpotsCertainPage = () => {
     <div className="flex flex-col items-center mt-12 mb-12 px-4 sm:px-8">
       {/* Header Section */}
       <div className="flex flex-col md:flex-row items-center w-full gap-8 mt-12">
-        {/* Keep the initial picture size */}
+        {/* Image with hover effect */}
         <img
           src={spot.img}
           alt={spot.name}
-          className="w-full sm:w-96 md:w-[600px] h-auto object-cover"
+          className="w-full sm:w-96 md:w-[600px] h-auto object-cover mb-4 rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:opacity-90"
         />
         <div className="text-center md:text-left">
           <h1 className="text-2xl sm:text-4xl font-bold mb-4">{spot.name}</h1>
@@ -64,7 +66,7 @@ const TouristSpotsCertainPage = () => {
           sections={sections}
           title="Related Spots"
           maxSpots={3}
-          hoverEffect={true}
+          hoverEffect={true} // Assuming this adds hover effects in RelatedSpots
         />
       </div>
     </div>

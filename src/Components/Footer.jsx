@@ -11,29 +11,32 @@ function Footer() {
         </div>
 
         {/* Links to pages */}
-        <div className="flex justify-center space-x-6">
-          <Link to="/" className="hover:text-gray-400 hover:underline">
+        <div className="flex flex-wrap justify-center space-x-6">
+          <Link to="/" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
             Home
           </Link>
           <Link
             to="/touristSpots"
-            className="hover:text-gray-400 hover:underline"
+            className="hover:text-gray-400 hover:underline text-xs sm:text-base"
           >
             Tourist Spots
           </Link>
-          <Link to="/food" className="hover:text-gray-400 hover:underline">
+          <Link to="/food" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
             Food
           </Link>
-          <Link to="/hotel" className="hover:text-gray-400 hover:underline">
+          <Link to="/hotel" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
             Hotel
           </Link>
-          <Link to="/events" className="hover:text-gray-400 hover:underline">
+          <Link to="/events" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
             Events
+          </Link>
+          <Link to="/about" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
+            About
           </Link>
         </div>
 
         {/* Small text for copyright or other info */}
-        <div className="mt-4 text-sm text-gray-400">
+        <div className="mt-4 text-xs sm:text-base text-gray-400">
           © 2025 Penang Go Fun. All rights reserved.
         </div>
       </div>

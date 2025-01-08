@@ -9,8 +9,10 @@ import EventsPage from "./Pages/EventsPage";
 import Footer from "./Components/Footer";
 import TouristSpotsCertainPage from "./Pages/TouristSpotsCertainPage";
 import Navbar from "./Components/Navbar";
+import FoodDetailsPage from "./Pages/FoodDetailsPage";
 import HotelCertainPage from "./Pages/HotelCertainPage";
 import EventDetailsPage from "./Pages/EventDetailsPage";
+import AboutPage from "./Pages/AboutPage"; // Import the AboutPage component
 
 function App() {
   return (
@@ -23,11 +25,13 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/touristSpots" element={<TouristSpotsPage />} />
         <Route path="/food" element={<FoodPage />} />
+        <Route path="/food/:id" element={<FoodDetailsPage />} />
         <Route path="/hotel" element={<HotelPage />} />
         <Route path="/hotel/:id" element={<HotelCertainPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/events/:id" element={<EventDetailsPage />} />
         <Route path="/:spotId" element={<TouristSpotsCertainPage />} />
+        <Route path="/about" element={<AboutPage />} /> {/* New route for About Page */}
       </Routes>
 
       <Footer />

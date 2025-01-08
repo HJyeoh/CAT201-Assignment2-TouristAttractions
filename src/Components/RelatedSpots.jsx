@@ -24,14 +24,16 @@ const RelatedSpots = ({ currentSpotId, sections, title = "Related Spots", maxSpo
           randomSpots.map((relatedSpot, index) => (
             <div 
               key={index} 
-              className={`flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-lg ${hoverEffect ? "hover:bg-gray-700 transition-all duration-200" : ""}`}
+              className={`flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-lg ${
+                hoverEffect ? "hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out" : ""
+              }`}
             >
               {/* Ensure image exists */}
               {relatedSpot.img && (
                 <img
                   src={relatedSpot.img}
                   alt={relatedSpot.name || "Related Tourist Spot"}
-                  className="w-full h-40 object-cover mb-4 rounded"
+                  className="w-full h-40 object-cover mb-4 rounded transition-all duration-300 ease-in-out"
                 />
               )}
               <h3 className="text-lg font-bold text-white mb-2">{relatedSpot.name || "Unnamed Spot"}</h3>

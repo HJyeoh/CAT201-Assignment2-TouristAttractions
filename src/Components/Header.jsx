@@ -4,11 +4,12 @@ import home_header from "../Asset/Home_img.png";
 import touristSpots_header from "../Asset/TouristSpots_header_60.png";
 import event_header from "../Asset/event_header_70.jpg";
 import hotel_header from "../Asset/hotel/hotel-header.webp";
+import fnb_header from "../Asset/fnb/fnb_header.png";
 
 const headerImages = {
   home: home_header,
   touristSpots: touristSpots_header,
-  food: "https://via.placeholder.com/1920x600?text=Food+Header",
+  food: fnb_header,
   hotel: hotel_header,
   events: event_header,
 };

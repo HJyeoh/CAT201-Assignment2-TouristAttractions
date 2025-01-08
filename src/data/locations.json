@@ -1,0 +1,185 @@
+[
+  {
+    "id": 1,
+    "foodId": 1,
+    "locations": [
+      {
+        "locationName": "Penang Road Famous Cendol",
+        "image1": "/location/location1ai.jpg",
+        "image2": "/location/location1aii.jpg",
+        "description": "Famed as a legendary spot for iconic must-try Teochew cendol, Penang Road Famous Teochew Chendul has been running for more than 88 years. This coconut milk and Gula Melaka-infused cendol is Penang’s true pride and joy. Despite the long queue, it’s definitely worth the hype."
+      },
+      {
+        "locationName": "Teochew Cendol Stall",
+        "image1": "/location/location1bi.jpg",
+        "image2": "/location/location1bii.jpg",
+        "description": "Renowned for its Nyonya and Teochew cendol, this spot boasts a well-balanced combination of coconut milk and pandan. At an affordable RM 4.50 per bowl, it is loaded with lots of red beans and green jelly noodles. Each spoonful is a refreshing escape from Penang's heat and a memory you'll cherish long after the last icy drop is gone."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "foodId": 2,
+    "locations": [
+      {
+        "locationName": "Sisters Char Kway Teow",
+        "image1": "/location/location2ai.jpg",
+        "image2": "/location/location2aii.jpg",
+        "description": "Sisters char kway teow is a stall that’s frequented by many Singaporeans. This gives the dish a unique sweetness. The hawker is very generous with the ingredients, and you can find fresh prawns, cockles, waxed Chinese sausages, and bits of crunchy pork lard too. "
+      },
+      {
+        "locationName": "Ah Leng Char Kway Teow",
+        "image1": "/location/location2bi.jpg",
+        "image2": "/location/location2bii.jpg",
+        "description": "There are a number of outlets for “Famous Ah Leng Char Kway Teow” in Penang, and the one we patronised at Tong Hooi Cafe is run by Ah Leng’s children. The creaminess of the duck egg gives this plate of char kway teow a unique edge. The kway teow here is also “wetter”, with water added in towards the end of the frying process."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "foodId": 3,
+    "locations": [
+      {
+        "locationName": "Goh Thew Chik Hainan Chicken Rice",
+        "image1": "/location/location3ai.jpg",
+        "image2": "/location/location3aii.jpg",
+        "description": "This shop with over 70 years of history serves not just Hainan-style chicken but also grilled chicken with chicken oil rice. The tangy chilli sauce made in-house cuts through the richness of the silky, juicy meat."
+      },
+      {
+        "locationName": "Nam Heong Hainan Chicken Rice",
+        "image1": "/location/location3bi.jpg",
+        "image2": "/location/location3bii.jpg",
+        "description": "Renowned for its succulent chicken and aromatic rice, Nam Heong brings the traditional flavors of Hainanese cuisine to life in every bite."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "foodId": 4,
+    "locations": [
+      {
+        "locationName": "Penang Assam Laksa @ Air Itam",
+        "image1": "/location/location4ai.jpg",
+        "image2": "/location/location4aii.jpg",
+        "description": "A bowl of piping hot Laksa comes with the quintessential elements; tender rice noodles gloriously bathed in aromatic broth packed with shredded mackerel fish. Air Itam Laksa has long been a favourite among many locals and tourists since it was established back in 1955."
+      },
+      {
+        "locationName": "Joo Hooi Cafe Laksa",
+        "image1": "/location/location4bi.jpg",
+        "image2": "/location/location4bii.jpg",
+        "description": "Located near Penang Road, this cafe offers a rich and aromatic Laksa that’s packed with bold flavors and garnished with fresh mackerel."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "foodId": 5,
+    "locations": [
+      {
+        "locationName": "Taman Emas Curry Mee",
+        "image1": "/location/location5ai.jpg",
+        "image2": "/location/location5aii.jpg",
+        "description": "The Asam Laksa is the typical Penang Laksa which is spicy, sour and appetising. The soup base has been cooked with slices of fish and curry flower. The side ingredients include cucumber, pineapple and also mint leaves. The thick dark shrimp paste is placed on the spoon to thicken the flavour."
+      },
+      {
+        "locationName": "Sister Curry Mee",
+        "image1": "/location/location5bi.jpg",
+        "image2": "/location/location5bii.jpg",
+        "description": "Sister Curry Mee is the best place to eat in Air Itam market and the best Curry Mee in Penang! Curry Mee is made of a mix of noodles drowned in rich coconut curry sauce and, in this case, topped with squid, blood curd and sambal. The place is run by two sister who have been serving this dish for decades. Get there early because they are sold out around 1pm."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "foodId": 6,
+    "locations": [
+      {
+        "locationName": "Village Park Nasi Lemak",
+        "image1": "/location/location6ai.jpg",
+        "image2": "/location/location6aii.jpg",
+        "description": " The freshly fried chicken leg was big, shatteringly crispy outside and warm juicy sweet inside. The crispy outside is coated with thin spiced batter which is flavoursome and has a subtle spice aroma."
+      },
+      {
+        "locationName": "Ali Nasi Lemak Daun Pisang",
+        "image1": "/location/location6bi.jpg",
+        "image2": "/location/location6bii.jpg",
+        "description": "This halal stall only sells nasi lemak: the national dish of coconut milk rice wrapped in banana leaf, topped with sambal and one of the six toppings. Try anchovies with a hard-boiled egg. "
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "foodId": 7,
+    "locations": [
+      {
+        "locationName": "Transfer Road Roti Canai",
+        "image1": "/location/location7ai.jpg",
+        "image2": "/location/location7aii.jpg",
+        "description": "This famous roadside stall serves flaky, crispy roti canai with a rich dhal curry or chicken curry. A morning favorite in Penang."
+      },
+      {
+        "locationName": "Sri Ananda Bahwan",
+        "image1": "/location/location7bi.jpg",
+        "image2": "/location/location7bii.jpg",
+        "description": "Fresh Roti Canai dipped in Chicken Curry along with great blend of coffee, what else do you need. Upgraded recently. Many varieties of Indian sweet delicacies. A must visit place if you are visiting Little India. "
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "foodId": 8,
+    "locations": [
+      {
+        "locationName": "Gurney Drive Satay",
+        "image1": "/location/location8ai.jpg",
+        "image2": "/location/location8aii.jpg",
+        "description": "Famous for juicy, well-marinated satay skewers, served with a rich, creamy peanut sauce. A must-try in Penang’s popular food hub."
+      },
+      {
+        "locationName": "New Lane Hawker Satay",
+        "image1": "/location/location8bi.jpg",
+        "image2": "/location/location8bii.jpg",
+        "description": "This hawker stall is known for its tender, smoky satay with freshly made peanut sauce. Perfect for an evening food crawl."
+      }
+    ]
+  },
+
+  {
+    "id": 9,
+    "foodId": 9,
+    "locations": [
+      {
+        "locationName": "Tamil Street Ais Tingkap",
+        "image1": "/location/location9ai.jpg",
+        "image2": "/location/location9aii.jpg",
+        "description": "The Ais Tingkap stall is located in Tamil Street, beside Chowrasta Market. A small but popular stall serving the very complex and delicious version of syrup air."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "foodId": 10,
+    "locations": [
+      {
+        "locationName": "Swatow Lane Ice Kacang",
+        "image1": "/location/location10ai.jpg",
+        "image2": "/location/location10aii.jpg",
+        "description": "Known for its classic ice kacang loaded with shaved ice, syrup, red beans, and a scoop of ice cream on top."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "foodId": 11,
+    "locations": [
+      {
+        "locationName": " Mews Cafe Cha Cha",
+        "image1": "/location/location11ai.jpg",
+        "image2": "/location/location11aii.jpg",
+        "description": "A comforting dessert shop offering creamy Bubur Cha Cha with chunks of sweet potatoes and yam. Perfect for sweet tooths!"
+      }
+    ]
+  }
+
+  
+]

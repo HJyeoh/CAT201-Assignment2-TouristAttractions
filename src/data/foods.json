@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Cendol",
+    "category": "Desserts",
+    "priceRange": "5-7",
+    "image": "/src/Asset/fnb/fnb_food1.jpg",
+    "description": "A refreshing dessert made with shaved ice, green jelly noodles, and coconut milk."
+  },
+  {
+    "id": 2,
+    "name": "Char Kway Teow",
+    "category": "Main Courses",
+    "priceRange": "6-8",
+    "image": "/src/Asset/fnb/fnb_food2.jpg",
+    "description": "Stir-fried flat rice noodles with egg, prawns, bean sprouts, and chives, served with a rich soy sauce."
+  },
+  {
+    "id": 3,
+    "name": "Hainanese Chicken Rice",
+    "category": "Main Courses",
+    "priceRange": "7-12",
+    "image": "/src/Asset/fnb/fnb_food3.jpg",
+    "description": "Tender chicken served with fragrant rice cooked in chicken fat, accompanied by chili sauce and ginger paste."
+  },
+  {
+    "id": 4,
+    "name": "Laksa",
+    "category": "Main Courses",
+    "priceRange": "6-9",
+    "image": "/src/Asset/fnb/fnb_food4.jpg",
+    "description": "A spicy noodle soup with a coconut-based broth, topped with shrimp, tofu, and bean sprouts."
+  },
+  {
+    "id": 5,
+    "name": "Curry Mee",
+    "category": "Main Courses",
+    "priceRange": "6-10",
+    "image": "/src/Asset/fnb/fnb_food5.jpg",
+    "description": "A rich and flavorful curry noodle soup with chicken, tofu, and vegetables, served with noodles."
+  },
+  {
+    "id": 6,
+    "name": "Nasi Lemak",
+    "category": "Main Courses",
+    "priceRange": "4-8",
+    "image": "/src/Asset/fnb/fnb_food6.jpg",
+    "description": "A traditional dish featuring coconut rice, fried anchovies, boiled egg, cucumber, and sambal."
+  },
+  {
+    "id": 7,
+    "name": "Roti Canai",
+    "category": "Snacks",
+    "priceRange": "1-3",
+    "image": "/src/Asset/fnb/fnb_food7.jpg",
+    "description": "A crispy and flaky flatbread served with dhal curry or sugar for dipping."
+  },
+  {
+    "id": 8,
+    "name": "Satay",
+    "category": "Snacks",
+    "priceRange": "0.80-1.50",
+    "image": "/src/Asset/fnb/fnb_food8.jpg",
+    "description": "Grilled skewers of marinated meat, typically served with peanut sauce."
+  },
+  {
+    "id": 9,
+    "name": "Ais Tingkap",
+    "category": "Drinks",
+    "priceRange": "2-2.50",
+    "image": "/src/Asset/fnb/fnb_food9.jpg",
+    "description": "Ais Tingkap, or 'Window Sherbet,' is a refreshing Penang drink made with rose syrup, coconut water, coconut flesh, basil seeds, and shaved ice. Its vibrant pink color and sweet, floral flavor make it a unique and hydrating treat, perfect for cooling off in the tropical heat."
+  },
+  {
+    "id": 10,
+    "name": "Ice Kacang (ABC)",
+    "category": "Desserts",
+    "priceRange": "4-7",
+    "image": "/src/Asset/fnb/fnb_food10.jpg",
+    "description": "Shaved ice topped with red beans, sweet syrup, and condensed milk."
+  },
+  {
+    "id": 11,
+    "name": "Bubur Cha Cha",
+    "category": "Desserts",
+    "priceRange": "4-6",
+    "image": "/src/Asset/fnb/fnb_food11.jpg",
+    "description": "A sweet dessert made with coconut milk, yam, and sweet potatoes."
+  }
+]
