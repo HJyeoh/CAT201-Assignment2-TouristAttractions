@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const AboutPage = () => {
+  // Scroll to top on component mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container mx-auto px-4 sm:px-8 py-12 bg-gray-900 text-white">
       {/* Meet Our Team Section */}
@@ -69,7 +74,14 @@ const AboutPage = () => {
           Why Choose <span className="text-yellow-400">Penang Go Fun!</span>
         </h2>
         <p className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto">
-        Penang Go Fun! is your ultimate travel companion for exploring the best of Penang, Malaysia. Our platform brings together the island's must-visit tourist spots, delicious food experiences, and top-rated hotels in one place, making it easy for you to discover and plan your trip. From breathtaking landmarks to vibrant events and festivals, Penang Go Fun! helps you navigate through the island’s best offerings while allowing you to easily view and book the perfect hotel for your stay. Your next unforgettable adventure in Penang starts here!
+          Penang Go Fun! is your ultimate travel companion for exploring the
+          best of Penang, Malaysia. Our platform brings together the island's
+          must-visit tourist spots, delicious food experiences, and top-rated
+          hotels in one place, making it easy for you to discover and plan your
+          trip. From breathtaking landmarks to vibrant events and festivals,
+          Penang Go Fun! helps you navigate through the island’s best offerings
+          while allowing you to easily view and book the perfect hotel for your
+          stay. Your next unforgettable adventure in Penang starts here!
         </p>
       </div>
 
