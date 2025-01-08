@@ -12,7 +12,7 @@ const AboutPage = () => {
           {/* Member 1 */}
           <div className="text-center bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
             <img
-              src="src/Asset/member1.jpg"
+              src="/member/member1.jpg"
               alt="Member 1"
               className="w-32 h-32 rounded-full mx-auto shadow-lg"
             />
@@ -25,7 +25,7 @@ const AboutPage = () => {
           {/* Member 2 */}
           <div className="text-center bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
             <img
-              src="src/Asset/member2.jpg"
+              src="/member/member2.jpg"
               alt="Member 2"
               className="w-32 h-32 rounded-full mx-auto shadow-lg"
             />
@@ -38,7 +38,7 @@ const AboutPage = () => {
           {/* Member 3 */}
           <div className="text-center bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
             <img
-              src="src/Asset/member3.jpg"
+              src="/member/member3.jpg"
               alt="Member 3"
               className="w-32 h-32 rounded-full mx-auto shadow-lg"
             />
@@ -51,7 +51,7 @@ const AboutPage = () => {
           {/* Member 4 */}
           <div className="text-center bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
             <img
-              src="src/Asset/member4.jpg"
+              src="/member/member4.jpg"
               alt="Member 4"
               className="w-32 h-32 rounded-full mx-auto shadow-lg"
             />

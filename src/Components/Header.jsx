@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 import home_header from "../Asset/Home_img.png";
 import touristSpots_header from "../Asset/TouristSpots_header_60.png";
 import event_header from "../Asset/event_header_70.jpg";
-import hotel_header from "../Asset/hotel/hotel-header.webp";
-import fnb_header from "../Asset/fnb/fnb_header.png";
+import hotel_header from "/hotel/hotel-header.webp";
+import fnb_header from "/fnb/fnb_header.png";
 
 const headerImages = {
   home: home_header,

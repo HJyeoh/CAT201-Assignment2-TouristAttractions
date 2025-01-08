@@ -7,17 +7,17 @@
     "stars": 5,
     "reviews": 980,
     "price": 1200,
-    "image": "/src/Asset/hotel/hotel-1a.webp",
+    "image": "/hotel/hotel-1a.webp",
     "address": "10 Lebuh Farquhar, George Town, 10200 George Town, Pulau Pinang",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9434520031555!2d100.3320274!3d5.4236595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac39b073008ab%3A0xf3b83438062f2fb!2sEastern%20%26%20Oriental%20Hotel%2C%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Georgetown",
     "description": "Experience luxury seafront views at Eastern And Oriental Hotel. This all-suite hotel in George Town offers 3 restaurants, a 24-hour fitness center, an infinity pool, and 6 dining options. The 232 suites blend modern and antique furnishings with wood floors and marble bathrooms. Explore nearby attractions and indulge in culinary delights at the beloved E&O, cherished for over a century. Discover Georgetown's rich heritage with charming colonial buildings and vibrant street art. Enjoy a breakfast served to your room, unwind by the indoor pool, and indulge in drinks at the exclusive bar. With convenient access to Prangin Mall, Chew's Jetty, and Street Art in George Town, Eastern And Oriental Hotel offers comfort, luxury, and a taste of local charm for solo travelers. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-1a.webp",
-      "/src/Asset/hotel/hotel-1b.webp",
-      "/src/Asset/hotel/hotel-1c.webp",
-      "/src/Asset/hotel/hotel-1d.webp",
-      "/src/Asset/hotel/hotel-1e.webp"
+      "/hotel/hotel-1a.webp",
+      "/hotel/hotel-1b.webp",
+      "/hotel/hotel-1c.webp",
+      "/hotel/hotel-1d.webp",
+      "/hotel/hotel-1e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
@@ -25,7 +25,7 @@
         "type": "Writers Suite",
         "description": "Spacious and elegantly furnished room with sea view.",
         "price": 1200,
-        "photo": "/src/Asset/room/room-1b.webp",
+        "photo": "/room/room-1b.webp",
         "benefits": ["Free breakfast", "Sea view", "Complimentary Wi-Fi"],
         "adults": 2,
         "children": 1,
@@ -35,7 +35,7 @@
         "type": "Heritage Wing Superior Suite with 2 Single Beds",
         "description": "Luxurious suite with separate living area.",
         "price": 1418,
-        "photo": "/src/Asset/room/room-1a.webp",
+        "photo": "/room/room-1a.webp",
         "benefits": [
           "Access to executive lounge",
           "Complimentary high tea",
@@ -56,17 +56,17 @@
     "stars": 4,
     "reviews": 720,
     "price": 280,
-    "image": "/src/Asset/hotel/hotel-2a.webp",
+    "image": "/hotel/hotel-2a.webp",
     "address": "8 Gat Lebuh Gereja, Georgetown, Penang, Malaysia, 10200",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.7948667900736!2d100.340188!3d5.4165129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3e9c9271fa5%3A0x80ebadc7fa6fdb28!2sThe%20Prestige%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "George Town",
     "description": "Experience modern luxury at The Prestige Hotel Penang. Rooftop infinity pool with stunning view. Victorian arcade with curated retail and dining options. Ideal for solo travelers seeking nearby attractions. Explore Georgetown's rich cultural heritage, admire colonial buildings, and immerse yourself in the vibrant street art scene. Enjoy a mouthwatering breakfast and delicious meals at the on-site restaurant. Stay in air-conditioned rooms with complimentary Wi-Fi, with some offering city or outdoor views. Conveniently located near Prangin Mall, Chew's Jetty, and Street Art in George Town, The Prestige Hotel Penang is the ideal choice for solo travelers seeking to discover the city and make unforgettable memories. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-2a.webp",
-      "/src/Asset/hotel/hotel-2b.webp",
-      "/src/Asset/hotel/hotel-2c.webp",
-      "/src/Asset/hotel/hotel-2d.webp",
-      "/src/Asset/hotel/hotel-2e.webp"
+      "/hotel/hotel-2a.webp",
+      "/hotel/hotel-2b.webp",
+      "/hotel/hotel-2c.webp",
+      "/hotel/hotel-2d.webp",
+      "/hotel/hotel-2e.webp"
     ],
     "amenities": ["wifi", "pool", "breakfast"],
     "rooms": [
@@ -74,7 +74,7 @@
         "type": "Premier Deluxe King",
         "description": "Comfortable room with a modern design.",
         "price": 280,
-        "photo": "/src/Asset/room/room-2a.webp",
+        "photo": "/room/room-2a.webp",
         "benefits": [
           "Daily housekeeping",
           "Free pool access",
@@ -89,7 +89,7 @@
         "type": "Hollywood Twin Room",
         "description": "A spacious suite with a king-sized bed.",
         "price": 273,
-        "photo": "/src/Asset/room/room-2b.webp",
+        "photo": "/room/room-2b.webp",
         "benefits": [
           "Free breakfast",
           "Free pool access",
@@ -110,17 +110,17 @@
     "stars": 4,
     "reviews": 1200,
     "price": 400,
-    "image": "/src/Asset/hotel/hotel-3a.webp",
+    "image": "/hotel/hotel-3a.webp",
     "address": "1 Solok Bayan Indah, Bayan Lepas, Penang, Malaysia, 11900",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.398915907538!2d100.3040271!3d5.3365953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac0f7bd0db689%3A0x66643f2ddd9cec2b!2sEastin%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Bayan Lepas",
     "description": "Enjoy the charm of Eastin Hotel Penang as a solo traveler. Relax in the lobby lounge or rooftop pool, pamper yourself at Danai Spa. Conveniently near Queensbay Mall for shopping lovers. Book a solo stay at Eastin Hotel Penang for an enriching journey. Discover the vibrant atmosphere of Bayan Lepas, Penang as a solo traveler. Enjoy the convenience of a luxurious stay with a refreshing swimming pool, stylish bar, and convenient shuttle service. Explore pristine beaches and iconic attractions like Penang Hill and Snake Temple. Immerse yourself in the charm of Eastin Hotel Penang, conveniently located near Queensbay Mall, offering a variety of shopping and dining options. Experience a memorable stay with air conditioning, complimentary internet access, and plush towels. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-3a.webp",
-      "/src/Asset/hotel/hotel-3b.webp",
-      "/src/Asset/hotel/hotel-3c.webp",
-      "/src/Asset/hotel/hotel-3d.webp",
-      "/src/Asset/hotel/hotel-3e.webp"
+      "/hotel/hotel-3a.webp",
+      "/hotel/hotel-3b.webp",
+      "/hotel/hotel-3c.webp",
+      "/hotel/hotel-3d.webp",
+      "/hotel/hotel-3e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
@@ -128,7 +128,7 @@
         "type": "Deluxe Suite",
         "description": "A spacious suite with panoramic views of the beach.",
         "price": 315,
-        "photo": "/src/Asset/room/room-3a.webp",
+        "photo": "/room/room-3a.webp",
         "benefits": [
           "Complimentary spa access",
           "Beachfront view",
@@ -148,17 +148,17 @@
     "stars": 4,
     "reviews": 850,
     "price": 457,
-    "image": "/src/Asset/hotel/hotel-4a.webp",
+    "image": "/hotel/hotel-4a.webp",
     "address": "Batu Ferringhi, 11100 Penang",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.278708093791!2d100.2385663!3d5.466117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3daacdcdd97%3A0x4f19c40f0f81e52e!2sBayview%20Beach%20Resort!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Batu Ferringhi",
     "description": "Ideal beachfront getaway for solo travelers at Bayview Beach Resort. Well-appointed rooms with private balconies offering stunning views. Explore lively Batu Ferringhi Night Market for street food and local crafts. Relaxation and adventure await solo travelers. This exclusive resort in Batu Ferringhi, Penang is perfect for solo travelers seeking a vibrant beach escape. Enjoy the swimming pool and trendy bar. The well-equipped rooms offer air conditioning, showers, toiletries, and plush towels. Wake up to breathtaking mountain or sea views. Explore attractions like Batu Ferringhi Beach, Night Market, and Penang Tropical Spice Garden. Convenient airport transfer provided. Ideal for an unforgettable solo adventure. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-4a.webp",
-      "/src/Asset/hotel/hotel-4b.webp",
-      "/src/Asset/hotel/hotel-4c.webp",
-      "/src/Asset/hotel/hotel-4d.webp",
-      "/src/Asset/hotel/hotel-4e.webp"
+      "/hotel/hotel-4a.webp",
+      "/hotel/hotel-4b.webp",
+      "/hotel/hotel-4c.webp",
+      "/hotel/hotel-4d.webp",
+      "/hotel/hotel-4e.webp"
     ],
     "amenities": ["breakfast", "wifi", "pool"],
     "rooms": [
@@ -166,7 +166,7 @@
         "type": "Grand Deluxe Double",
         "description": "Comfortable room with a garden view.",
         "price": 457,
-        "photo": "/src/Asset/room/room-4b.webp",
+        "photo": "/room/room-4b.webp",
         "benefits": [
           "Daily housekeeping",
           "Complimentary Wi-Fi",
@@ -180,7 +180,7 @@
         "type": "Superior Hill View Room with Double Bed",
         "description": "Spacious suite.",
         "price": 260,
-        "photo": "/src/Asset/room/room-4a.webp",
+        "photo": "/room/room-4a.webp",
         "benefits": [
           "Large living area",
           "Free breakfast",
@@ -200,17 +200,17 @@
     "stars": 5,
     "reviews": 1250,
     "price": 740,
-    "image": "/src/Asset/hotel/hotel-5a.webp",
+    "image": "/hotel/hotel-5a.webp",
     "address": "Hard Rock Hotel Penang, Batu Ferringhi Beach, 11100 Penang",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.271093645592!2d100.2389808!3d5.4676995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ae7fdb471d61d%3A0xed51474b3f6eda01!2sHard%20Rock%20Hotel%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Batu Ferringhi",
     "description": "Experience the dynamic solo travel at Hard Rock Hotel Penang. Enjoy Rock Spa, dining options, live music, and Roxtie Kids Club. Located in Batu Ferringhi, with easy access to stunning beaches, night markets, and water sports. Book now and rock on! Indulge in luxury at this exclusive property with a refreshing swimming pool and convenient shuttle service. Enjoy your air-conditioned room with free Wi-Fi and premium toiletries. Wake up to breathtaking views of the ocean, pool, or sea. Explore popular landmarks nearby including Batu Ferringhi Beach and Night Market. Perfect choice for solo travelers seeking relaxation or adventure. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-5a.webp",
-      "/src/Asset/hotel/hotel-5b.webp",
-      "/src/Asset/hotel/hotel-5c.webp",
-      "/src/Asset/hotel/hotel-5d.webp",
-      "/src/Asset/hotel/hotel-5e.webp"
+      "/hotel/hotel-5a.webp",
+      "/hotel/hotel-5b.webp",
+      "/hotel/hotel-5c.webp",
+      "/hotel/hotel-5d.webp",
+      "/hotel/hotel-5e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
@@ -218,7 +218,7 @@
         "type": "Deluxe Hill View",
         "description": "Rock-inspired room with modern amenities.",
         "price": 740,
-        "photo": "/src/Asset/room/room-5a.webp",
+        "photo": "/room/room-5a.webp",
         "benefits": [
           "Free breakfast",
           "Rock-themed decor",
@@ -232,7 +232,7 @@
         "type": "Roxity Kids Suite",
         "description": "Spacious suite with a king-sized bed and living area.",
         "price": 1240,
-        "photo": "/src/Asset/room/room-5b.webp",
+        "photo": "/room/room-5b.webp",
         "benefits": [
           "Exclusive access to Rock Royalty lounge",
           "Panoramic ocean view",
@@ -252,17 +252,17 @@
     "stars": 3,
     "reviews": 1850,
     "price": 261,
-    "image": "/src/Asset/hotel/hotel-6a.webp",
+    "image": "/hotel/hotel-6a.webp",
     "address": "280 Lebuh Victoria, 10300 Georgetown., Georgetown, Penang, Malaysia, 10300",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.820495598442!2d100.3389859!3d5.4153624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac38dd55826ad%3A0xd831923cae0bb858!2sVictoria%20Garden%20Hotel!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Georgetown",
     "description": "Experience the charm of Victoria Garden Hotel. Perfect for solo travelers, this classic resort offers relaxation, local hospitality, stunning rooftop views, and comfort and convenience for your solo travel adventure. Experience the rich cultural heritage of Georgetown in Penang at Victoria Garden Hotel. Enjoy charming colonial buildings, vibrant street art, and delightful amenities like free WiFi, air conditioning, and room service. Stay in a comfortable room with modern comforts and enjoy city or nature views. With its strategic location, the hotel is perfect for solo travelers seeking convenience and a memorable stay. Explore nearby attractions like Prangin Mall, Chew's Jetty, and the famous street art in George Town. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-6a.webp",
-      "/src/Asset/hotel/hotel-6b.webp",
-      "/src/Asset/hotel/hotel-6c.webp",
-      "/src/Asset/hotel/hotel-6d.webp",
-      "/src/Asset/hotel/hotel-6e.webp"
+      "/hotel/hotel-6a.webp",
+      "/hotel/hotel-6b.webp",
+      "/hotel/hotel-6c.webp",
+      "/hotel/hotel-6d.webp",
+      "/hotel/hotel-6e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
@@ -270,7 +270,7 @@
         "type": "Deluxe Twin Room",
         "description": "Rock-inspired room with modern amenities.",
         "price": 261,
-        "photo": "/src/Asset/room/room-6a.webp",
+        "photo": "/room/room-6a.webp",
         "benefits": [
           "Free breakfast",
           "Rock-themed decor",
@@ -284,7 +284,7 @@
         "type": "Hollywood King Room",
         "description": "Spacious suite with a king-sized bed and living area.",
         "price": 242,
-        "photo": "/src/Asset/room/room-6b.webp",
+        "photo": "/room/room-6b.webp",
         "benefits": [
           "Exclusive access to Rock Royalty lounge",
           "Panoramic ocean view",
@@ -304,17 +304,17 @@
     "stars": 4,
     "reviews": 850,
     "price": 208,
-    "image": "/src/Asset/hotel/hotel-7a.webp",
+    "image": "/hotel/hotel-7a.webp",
     "address": "22A, Jalan Vervea 10, Vervea, Bandar Cassia, Simpang Ampat, Bukit Mertajam, Penang, Malaysia, 14110",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.9102430226635!2d100.4380498!3d5.2399427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ab7abb260ba9b%3A0x47e8ef33268e26d7!2sThe%20Upper%20House%20Hotel!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Bukit Mertajam",
     "description": "Stay at The Upper House Batu Kawan, a modern business hotel located in the largest gated commercial precinct in Penang. Enjoy halal cuisine and book a memorable solo travel experience. Discover vibrant Bukit Mertajam in Penang as a solo traveler. Immerse in rich history, explore local markets, and savor delectable street food. Enjoy luxurious amenities like a sparkling pool, bar, and restaurant. Stay comfortably with air conditioning, Wi-Fi, and a refreshing shower. Optional city or nature views available. Convenient shuttle service for exploring. Experience comfort, convenience, and local culture at The Upper House Batu Kawan. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-7a.webp",
-      "/src/Asset/hotel/hotel-7b.webp",
-      "/src/Asset/hotel/hotel-7c.webp",
-      "/src/Asset/hotel/hotel-7d.webp",
-      "/src/Asset/hotel/hotel-7e.webp"
+      "/hotel/hotel-7a.webp",
+      "/hotel/hotel-7b.webp",
+      "/hotel/hotel-7c.webp",
+      "/hotel/hotel-7d.webp",
+      "/hotel/hotel-7e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
@@ -322,7 +322,7 @@
         "type": "Premier King",
         "description": "Rock-inspired room with modern amenities.",
         "price": 335,
-        "photo": "/src/Asset/room/room-7a.webp",
+        "photo": "/room/room-7a.webp",
         "benefits": [
           "Free breakfast",
           "Rock-themed decor",
@@ -335,7 +335,7 @@
         "type": "Standard Twin",
         "description": "Spacious suite with a king-sized bed and living area.",
         "price": 208,
-        "photo": "/src/Asset/room/room-7b.webp",
+        "photo": "/room/room-7b.webp",
         "benefits": [
           "Exclusive access to Rock Royalty lounge",
           "Panoramic ocean view",
@@ -354,17 +354,17 @@
     "stars": 5,
     "reviews": 2238,
     "price": 196,
-    "image": "/src/Asset/hotel/hotel-8a.webp",
+    "image": "/hotel/hotel-8a.webp",
     "address": "33, Jalan Juru, Juru Sentral, Seberang Perai, Bukit Mertajam, Penang, Malaysia, 14000",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.221310572699!2d100.4330501!3d5.3436086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac7d41610f675%3A0xf7ef48ccaad68417!2sWesley%20Hotel%2C%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Batu Ferringhi",
     "description": "Discover colorful Bukit Mertajam in Penang, known for its history, markets, and street food. Stay at Wesley Hotel for solo travelers. Enjoy 24-hour CCTV security, airport transfer, complimentary Wi-Fi, and modern showers. Indulge in city views and free Netflix. Wesley Hotel offers convenience and value with its mainland location near restaurants and pubs. Start your day with breakfast and fast room service. Explore the city easily with proximity to public transportation. Book your comfortable stay at Wesley Hotel for an unforgettable trip. [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-8a.webp",
-      "/src/Asset/hotel/hotel-8b.webp",
-      "/src/Asset/hotel/hotel-8c.webp",
-      "/src/Asset/hotel/hotel-8d.webp",
-      "/src/Asset/hotel/hotel-8e.webp"
+      "/hotel/hotel-8a.webp",
+      "/hotel/hotel-8b.webp",
+      "/hotel/hotel-8c.webp",
+      "/hotel/hotel-8d.webp",
+      "/hotel/hotel-8e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
@@ -372,7 +372,7 @@
         "type": "Deluxe King",
         "description": "Rock-inspired room with modern amenities.",
         "price": 196,
-        "photo": "/src/Asset/room/room-8a.webp",
+        "photo": "/room/room-8a.webp",
         "benefits": [
           "Free breakfast",
           "Rock-themed decor",
@@ -385,7 +385,7 @@
         "type": "Premier King",
         "description": "Spacious suite with a king-sized bed and living area.",
         "price": 251,
-        "photo": "/src/Asset/room/room-8b.webp",
+        "photo": "/room/room-8b.webp",
         "benefits": [
           "Exclusive access to Rock Royalty lounge",
           "Panoramic ocean view",
@@ -404,17 +404,17 @@
     "stars": 4,
     "reviews": 2343,
     "price": 263,
-    "image": "/src/Asset/hotel/hotel-9a.webp",
+    "image": "/hotel/hotel-9a.webp",
     "address": "56, Jalan Low Yat, Batu Ferringhi, Penang, Malaysia, 11100",
     "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1099052180093!2d100.2668979!3d5.477507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304add52251e055b%3A0x70ffc276d5ae668!2sDoubleTree%20Resort%20by%20Hilton%20Penang!5e0!3m2!1sen!2smy!4v1735754521207!5m2!1sen!2smy",
     "city": "Batu Ferringhi",
     "description": "Ideal for solo travelers, the modern DoubleTree Resort by Hilton in Penang offers stunning sea views and a beachfront location. Enjoy a complimentary shuttle service to nearby attractions and explore the unique teddy bear museum. With a variety of activities, this resort ensures a memorable stay for solo adventurers. Explore the DoubleTree Resort by Hilton Penang for an unforgettable solo adventure! Enjoy stunning beaches, vibrant night markets, and the lively atmosphere of Penang. Relax by the refreshing pool with breathtaking views and savor a drink in the luxurious bar. The comfortable rooms offer air conditioning, complimentary Wi-Fi, and indulgent toiletries. Conveniently located near Adventure Zone and other popular landmarks, it's the perfect choice for solo travelers looking to create lasting memories. Book now and embark on your solo journey! [Some content may be Generative AI assisted. Inaccuracies may occur.]",
     "images": [
-      "/src/Asset/hotel/hotel-9a.webp",
-      "/src/Asset/hotel/hotel-9b.webp",
-      "/src/Asset/hotel/hotel-9c.webp",
-      "/src/Asset/hotel/hotel-9d.webp",
-      "/src/Asset/hotel/hotel-9e.webp"
+      "/hotel/hotel-9a.webp",
+      "/hotel/hotel-9b.webp",
+      "/hotel/hotel-9c.webp",
+      "/hotel/hotel-9d.webp",
+      "/hotel/hotel-9e.webp"
     ],
     "amenities": ["wifi", "pool", "concierge"],
     "rooms": [
@@ -422,7 +422,7 @@
         "type": "King Deluxe Room Balcony",
         "description": "Rock-inspired room with modern amenities.",
         "price": 263,
-        "photo": "/src/Asset/room/room-9a.webp",
+        "photo": "/room/room-9a.webp",
         "benefits": [
           "Free breakfast",
           "Rock-themed decor",
@@ -436,7 +436,7 @@
         "type": "Twin Guest Room",
         "description": "Spacious suite with a king-sized bed and living area.",
         "price": 263,
-        "photo": "/src/Asset/room/room-9b.webp",
+        "photo": "/room/room-9b.webp",
         "benefits": [
           "Exclusive access to Rock Royalty lounge",
           "Panoramic ocean view",
