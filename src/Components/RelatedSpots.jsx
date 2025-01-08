@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const RelatedSpots = ({ currentSpotId, sections, title = "Related Spots", maxSpots = 3, hoverEffect = true }) => {
   // Check if sections exist and are not empty
@@ -40,9 +41,10 @@ const RelatedSpots = ({ currentSpotId, sections, title = "Related Spots", maxSpo
               <p className="text-sm text-gray-400 mb-4">
                 {relatedSpot.description || "No description available."}
               </p>
-              <a href={relatedSpot.link} className="text-blue-500 hover:underline">
+              {/* Replace a href with Link */}
+              <Link to={relatedSpot.link} className="text-blue-500 hover:underline">
                 Learn More
-              </a>
+              </Link>
             </div>
           ))
         ) : (
