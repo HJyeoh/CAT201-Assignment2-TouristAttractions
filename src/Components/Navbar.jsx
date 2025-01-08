@@ -2,21 +2,18 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import logo from "../Asset/logo.png";
 
 // Navigation menu items
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Tourist Spots", href: "/touristSpots" },
-  { name: "Food & Beverages", href: "/food" },
-  { name: "Hotels", href: "/hotel" },
-  { name: "Events & Festivals", href: "/events" },
+  { name: "Home", to: "/" },
+  { name: "Tourist Spots", to: "/touristSpots" },
+  { name: "Food & Beverages", to: "/food" },
+  { name: "Hotels", to: "/hotel" },
+  { name: "Events & Festivals", to: "/events" },
 ];
 
 function classNames(...classes) {
@@ -52,10 +49,9 @@ export default function Navbar() {
             <div className="hidden sm:ml-6 sm:block md:ml-[19%]">
               <div className="flex text-center items-center justify-center space-x-4 h-full">
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.href}
-                    aria-current={item.current ? "page" : undefined}
+                    to={item.to} // Change href to to
                     className={classNames(
                       item.current
                         ? "bg-gray-900 text-white"
@@ -64,7 +60,7 @@ export default function Navbar() {
                     )}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -79,9 +75,8 @@ export default function Navbar() {
           {navigation.map((item) => (
             <DisclosureButton
               key={item.name}
-              as="a"
-              href={item.href}
-              aria-current={item.current ? "page" : undefined}
+              as={Link} // Change as="a" to as={Link}
+              to={item.to} // Change href to to
               className={classNames(
                 item.current
                   ? "bg-gray-900 text-white"
