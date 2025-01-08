@@ -7,6 +7,8 @@ import RelatedSpots from '../Components/RelatedSpots';
 
 const TouristSpotsCertainPage = () => {
   const { spotId } = useParams(); // Get the 'spotId' from the URL
+  
+  window.scrollTo(0, 0);
 
   // Find the spot that matches the 'spotId' from the sections
   const spot = Object.values(sections).flat().find((s) => s.link === `/${spotId}`);

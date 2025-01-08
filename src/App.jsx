@@ -9,6 +9,7 @@ import EventsPage from "./Pages/EventsPage";
 import Footer from "./Components/Footer";
 import TouristSpotsCertainPage from "./Pages/TouristSpotsCertainPage";
 import Navbar from "./Components/Navbar";
+import FoodDetailsPage from "./Pages/FoodDetailsPage";
 import HotelCertainPage from "./Pages/HotelCertainPage";
 import EventDetailsPage from "./Pages/EventDetailsPage";
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/touristSpots" element={<TouristSpotsPage />} />
         <Route path="/food" element={<FoodPage />} />
+        <Route path="/food/:id" element={<FoodDetailsPage />} />
         <Route path="/hotel" element={<HotelPage />} />
         <Route path="/hotel/:id" element={<HotelCertainPage />} />
         <Route path="/events" element={<EventsPage />} />
