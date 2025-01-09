@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import events from "../data/events.json"; // Adjust the path as needed
+import events from "../data/events.json"; 
 
 
 const formatDate = (dateStr) => {
@@ -32,7 +32,7 @@ const EventDetailsPage = () => {
   if (!event) {
     return <div>Event not found</div>;
   }
-  
+
   window.scrollTo(0, 0);
 
   return (

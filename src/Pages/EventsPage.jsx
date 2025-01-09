@@ -31,7 +31,6 @@ const formatDate = (dateStr) => {
   return `${day} ${month} ${year}`;
 };
 
-
 const EventsPage = () => {
   const [selectedQuarter, setSelectedQuarter] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
@@ -95,7 +94,7 @@ const EventsPage = () => {
               <img
                 src={event.poster}
                 alt={event.title}
-                className="w-full h-auto mb-4 aspect-[4/3] object-cover"
+                className="w-full h-auto mb-4 aspect-[4/3] object-cover rounded-lg" // Add rounded-lg for rounded borders
               />
               <h3 className="text-xl font-bold mb-2">{event.title}</h3>
               <p className="text-gray-400 mb-2">
