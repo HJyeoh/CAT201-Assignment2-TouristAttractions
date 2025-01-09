@@ -1,6 +1,9 @@
 import React from "react";
 
 const AboutPage = () => {
+
+  window.scrollTo(0, 0);
+  
   return (
     <div className="container mx-auto px-4 sm:px-8 py-12 bg-gray-900 text-white">
       {/* Meet Our Team Section */}

@@ -17,6 +17,8 @@ const FoodPage = () => {
     return matchesCategory && matchesSearchTerm;
   });
 
+  
+
   return (
     <div className="p-8">
       {/* Category and Search Controls */}

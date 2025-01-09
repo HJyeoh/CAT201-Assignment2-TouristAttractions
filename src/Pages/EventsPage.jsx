@@ -31,6 +31,7 @@ const formatDate = (dateStr) => {
   return `${day} ${month} ${year}`;
 };
 
+
 const EventsPage = () => {
   const [selectedQuarter, setSelectedQuarter] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");

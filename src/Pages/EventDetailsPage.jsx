@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import events from "../data/events.json"; // Adjust the path as needed
 
+
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);
   const day = date.getDate().toString().padStart(2, "0");
@@ -31,6 +32,8 @@ const EventDetailsPage = () => {
   if (!event) {
     return <div>Event not found</div>;
   }
+  
+  window.scrollTo(0, 0);
 
   return (
     <div className="p-8 mt-20">

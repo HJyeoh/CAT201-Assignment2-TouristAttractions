@@ -10,6 +10,8 @@ const HotelPage = () => {
     setFilters((prevFilters) => ({ ...prevFilters, ...searchParams }));
   };
 
+
+
   return (
     <div className="lg:mx-32 md:mx-16 mx-8">
       <SearchFilterBar onSearch={handleSearch} />

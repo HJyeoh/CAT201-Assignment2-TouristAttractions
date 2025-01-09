@@ -8,6 +8,7 @@ import RelatedHotel from "../Components/RelatedHotel"; // Related Hotels Compone
 
 const HomePage = () => {
   const getTopThree = (data) => data.slice(0, 3);
+  window.scrollTo(0, 0);
 
   return (
     <div className="container px-4 mt-20 lg:px-16">

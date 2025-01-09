@@ -1,7 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import logo from "../Asset/logo.png"; // Replace with the correct path to your logo
 
 function Footer() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div className="bg-gray-700 text-white py-8">
       <div className="container mx-auto text-center">
@@ -15,10 +22,7 @@ function Footer() {
           <Link to="/" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
             Home
           </Link>
-          <Link
-            to="/touristSpots"
-            className="hover:text-gray-400 hover:underline text-xs sm:text-base"
-          >
+          <Link to="/touristSpots" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
             Tourist Spots
           </Link>
           <Link to="/food" className="hover:text-gray-400 hover:underline text-xs sm:text-base">
