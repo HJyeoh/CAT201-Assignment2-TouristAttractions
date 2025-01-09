@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import events from "../data/events.json"; 
-
 
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);
@@ -28,6 +27,11 @@ const formatDate = (dateStr) => {
 const EventDetailsPage = () => {
   const { id } = useParams();
   const event = events.find((event) => event.id === parseInt(id));
+
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!event) {
     return <div>Event not found</div>;
